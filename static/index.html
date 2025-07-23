@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random 80 Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        #questions {
+            margin-top: 20px;
+        }
+        .question {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .question p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        .question-options {
+            margin-left: 20px;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .error {
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random 80 Questions</h1>
+    <button onclick="fetchQuestions()">Generate Questions</button>
+    <div id="questions"></div>
+
+    <script>
+        async function fetchQuestions() {
+            try {
+                const response = await fetch('/api/questions');
+                const data = await response.json();
+                const questionsDiv = document.getElementById('questions');
+                questionsDiv.innerHTML = ''; // Clear previous questions
+
+                if (data.error) {
+                    questionsDiv.innerHTML = `<p class="error">${data.error}</p>`;
+                    return;
+                }
+
+                data.forEach((q, index) => {
+                    const questionElement = document.createElement('div');
+                    questionElement.className = 'question';
+                    questionElement.innerHTML = `
+                        <p><strong>${index + 1}. ${q.question}</strong></p>
+                        <div class="question-options">
+                            <p>A) ${q['Option 1']}</p>
+                            <p>B) ${q['Option 2']}</p>
+                            <p>C) ${q['Option 3']}</p>
+                            <p>D) ${q['Option 4']}</p>
+                        </div>
+                    `;
+                    questionsDiv.appendChild(questionElement);
+                });
+            } catch (error) {
+                console.error('Error fetching questions:', error);
+                document.getElementById('questions').innerHTML = '<p class="error">Error loading questions.</p>';
+            }
+        }
+    </script>
+</body>
+</html>
