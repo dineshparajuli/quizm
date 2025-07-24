@@ -61,7 +61,7 @@
             font-weight: bold;
             margin-top: 5px;
         }
-        #load-quiz, #submit-quiz, #reset-quiz {
+        #generate-questions, #submit-quiz, #reset-quiz {
             display: block;
             margin: 10px auto;
             padding: 10px 20px;
@@ -78,7 +78,7 @@
     <div class="progress mb-3">
         <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="80"></div>
     </div>
-    <button id="load-quiz" class="btn btn-primary">Load Quiz</button>
+    <button id="generate-questions" class="btn btn-primary">Generate Questions</button>
     <button id="submit-quiz" class="btn btn-success" style="display: none;">Submit Quiz</button>
     <button id="reset-quiz" class="btn btn-secondary" style="display: none;">Reset Quiz</button>
     <div id="error" class="mt-3"></div>
@@ -88,19 +88,19 @@
         console.log('Script loaded at', new Date().toISOString());
         document.addEventListener('DOMContentLoaded', () => {
             console.log('DOM fully loaded');
-            ['load-quiz', 'submit-quiz', 'reset-quiz'].forEach(id => {
+            ['generate-questions', 'submit-quiz', 'reset-quiz'].forEach(id => {
                 if (!document.getElementById(id)) {
                     console.error(`${id} button not found`);
                 }
             });
         });
 
-        document.getElementById('load-quiz').addEventListener('click', loadQuiz);
+        document.getElementById('generate-questions').addEventListener('click', generateQuestions);
         document.getElementById('submit-quiz').addEventListener('click', submitQuiz);
         document.getElementById('reset-quiz').addEventListener('click', resetQuiz);
 
-        async function loadQuiz() {
-            console.log('Loading quiz...');
+        async function generateQuestions() {
+            console.log('Generating questions...');
             const quizContainer = document.getElementById('quiz-container');
             const errorDiv = document.getElementById('error');
             const submitButton = document.getElementById('submit-quiz');
@@ -120,7 +120,7 @@
                     throw new Error(`Failed to load questions: ${response.status} ${errorText}`);
                 }
                 const data = await response.json();
-                console.log('Questions data:', JSON.stringify(data, null, 2));
+                console.log('Questions data:', JSON.stringify(data.random_questions.slice(0, 2), null, 2));
                 const questions = data.random_questions;
 
                 if (!questions || questions.length === 0) {
@@ -133,18 +133,18 @@
                     console.log(`Processing question ${index + 1}:`, q);
                     const questionDiv = document.createElement('div');
                     questionDiv.className = 'question';
+                    const optionKeys = ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
+                    const optionsHtml = optionKeys.map((key, i) => {
+                        const optionText = q[key] || `Option ${i + 1} missing`;
+                        return `<label><input type="radio" name="q${index}" value="${i + 1}"> <span>${optionText}</span></label>`;
+                    }).join('');
                     questionDiv.innerHTML = `
                         <p>${index + 1}. ${q.question || 'Question missing'}</p>
-                        <div class="options">
-                            <label><input type="radio" name="q${index}" value="1"> <span>${q['Option 1'] || 'Option 1 missing'}</span></label>
-                            <label><input type="radio" name="q${index}" value="2"> <span>${q['Option 2'] || 'Option 2 missing'}</span></label>
-                            <label><input type="radio" name="q${index}" value="3"> <span>${q['Option 3'] || 'Option 3 missing'}</span></label>
-                            <label><input type="radio" name="q${index}" value="4"> <span>${q['Option 4'] || 'Option 4 missing'}</span></label>
-                        </div>
+                        <div class="options">${optionsHtml}</div>
                         <div class="feedback" id="feedback-${index}"></div>
                     `;
                     quizContainer.appendChild(questionDiv);
-                    console.log(`Rendered question ${index + 1}: ${q.question}, Options: ${[q['Option 1'], q['Option 2'], q['Option 3'], q['Option 4']].join(', ')}`);
+                    console.log(`Rendered question ${index + 1}: ${q.question}, Options: ${optionKeys.map(k => q[k]).join(', ')}`);
 
                     const radioButtons = questionDiv.querySelectorAll(`input[name="q${index}"]`);
                     console.log(`Radio buttons for q${index}: ${radioButtons.length}`);
@@ -172,7 +172,8 @@
                                     } else {
                                         feedbackDiv.textContent = `Incorrect. Correct answer: Option ${result.correctAnswer}`;
                                         feedbackDiv.className = 'feedback incorrect';
-                                        questionDiv.querySelector(`input[value="${result.correctAnswer}"]`).nextElementSibling.style.color = 'green';
+                                        const correctInput = questionDiv.querySelector(`input[value="${result.correctAnswer}"]`);
+                                        if (correctInput) correctInput.nextElementSibling.style.color = 'green';
                                     }
                                     const answered = document.querySelectorAll('.question input[type="radio"]:checked').length;
                                     const progress = (answered / 80) * 100;
@@ -196,7 +197,7 @@
                 resetButton.style.display = 'block';
             } catch (error) {
                 errorDiv.textContent = `Error: ${error.message}`;
-                console.error('Load quiz error:', error.message);
+                console.error('Generate questions error:', error.message);
             }
         }
 
@@ -210,7 +211,7 @@
                     selectedOption: selected ? selected.value : null
                 });
             });
-            console.log('Submitting answers:', answers);
+            console.log('Submitting answers:', answers.slice(0, 2));
             try {
                 const response = await fetch('/api/submit', {
                     method: 'POST',
@@ -239,7 +240,7 @@
             document.getElementById('submit-quiz').style.display = 'none';
             document.getElementById('reset-quiz').style.display = 'none';
             document.getElementById('error').textContent = '';
-            loadQuiz();
+            generateQuestions();
         }
     </script>
 </body>
