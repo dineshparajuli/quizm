@@ -12,29 +12,35 @@ logger = logging.getLogger(__name__)
 
 def load_questions():
     try:
+        # Use absolute path for robustness
         file_path = os.path.join(os.path.dirname(__file__), '..', 'questions.json')
-        logger.info(f"Loading questions from {file_path}")
-        with open(file_path, 'r') as f:
+        logger.info(f"Attempting to load questions from {file_path}")
+        if not os.path.exists(file_path):
+            logger.error(f"questions.json not found at {file_path}")
+            return []
+        with open(file_path, 'r', encoding='utf-8') as f:
             questions = json.load(f)
+        if not isinstance(questions, list) or not questions:
+            logger.error("questions.json is empty or not a list")
+            return []
+        logger.info(f"Loaded {len(questions)} questions")
         return questions
-    except FileNotFoundError:
-        logger.error("questions.json not found")
-        return []
-    except json.JSONDecodeError:
-        logger.error("Invalid JSON format in questions.json")
+    except json.JSONDecodeError as e:
+        logger.error(f"Invalid JSON format in questions.json: {e}")
         return []
     except Exception as e:
-        logger.error(f"Error loading JSON file: {e}")
+        logger.error(f"Error loading questions.json: {e}")
         return []
 
 @app.route('/api/questions', methods=['GET'])
 def get_random_questions():
     questions = load_questions()
     if not questions:
-        logger.error("No questions loaded")
-        return jsonify({"error": "Failed to load questions"}), 500
+        logger.error("No questions available in /api/questions")
+        return jsonify({"error": "No questions available", "random_questions": []}), 500
     random_questions = random.sample(questions, min(80, len(questions)))
     safe_questions = [{k: v for k, v in q.items() if k != 'CorrectAnswer'} for q in random_questions]
+    logger.info(f"Returning {len(random_questions)} questions")
     return jsonify(random_questions=safe_questions)
 
 @app.route('/api/check_answer', methods=['POST'])
