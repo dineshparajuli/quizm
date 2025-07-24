@@ -133,7 +133,7 @@
                     console.log(`Processing question ${index + 1}:`, q);
                     const questionDiv = document.createElement('div');
                     questionDiv.className = 'question';
-                    const optionKeys = ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
+                    const optionKeys = ['option 1', 'option 2', 'option 3', 'option 4'];
                     const optionsHtml = optionKeys.map((key, i) => {
                         const optionText = q[key] || `Option ${i + 1} missing`;
                         return `<label><input type="radio" name="q${index}" value="${i + 1}"> <span>${optionText}</span></label>`;
