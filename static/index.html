@@ -86,161 +86,191 @@
 
     <script>
         console.log('Script loaded at', new Date().toISOString());
-        document.addEventListener('DOMContentLoaded', () => {
-            console.log('DOM fully loaded');
-            ['generate-questions', 'submit-quiz', 'reset-quiz'].forEach(id => {
-                if (!document.getElementById(id)) {
-                    console.error(`${id} button not found`);
-                }
+        try {
+            document.addEventListener('DOMContentLoaded', () => {
+                console.log('DOM fully loaded');
+                ['generate-questions', 'submit-quiz', 'reset-quiz'].forEach(id => {
+                    const element = document.getElementById(id);
+                    if (!element) {
+                        console.error(`Element with ID ${id} not found`);
+                    } else {
+                        console.log(`Found element: ${id}`);
+                    }
+                });
             });
-        });
 
-        document.getElementById('generate-questions').addEventListener('click', generateQuestions);
-        document.getElementById('submit-quiz').addEventListener('click', submitQuiz);
-        document.getElementById('reset-quiz').addEventListener('click', resetQuiz);
+            const generateButton = document.getElementById('generate-questions');
+            if (generateButton) {
+                console.log('Generate Questions button found, attaching event listener');
+                generateButton.addEventListener('click', generateQuestions);
+            } else {
+                console.error('Generate Questions button not found');
+            }
 
-        async function generateQuestions() {
-            console.log('Generating questions...');
-            const quizContainer = document.getElementById('quiz-container');
-            const errorDiv = document.getElementById('error');
-            const submitButton = document.getElementById('submit-quiz');
-            const resetButton = document.getElementById('reset-quiz');
-            quizContainer.innerHTML = '';
-            errorDiv.innerHTML = '';
-            submitButton.style.display = 'none';
-            resetButton.style.display = 'none';
-            document.getElementById('progress-bar').style.width = '0%';
-            document.getElementById('progress-bar').setAttribute('aria-valuenow', 0);
+            async function generateQuestions() {
+                console.log('generateQuestions function called');
+                const quizContainer = document.getElementById('quiz-container');
+                const errorDiv = document.getElementById('error');
+                const submitButton = document.getElementById('submit-quiz');
+                const resetButton = document.getElementById('reset-quiz');
 
-            try {
-                const response = await fetch('/api/questions', { method: 'GET' });
-                console.log('Fetch /api/questions response:', response.status);
-                if (!response.ok) {
-                    const errorText = await response.text();
-                    throw new Error(`Failed to load questions: ${response.status} ${errorText}`);
-                }
-                const data = await response.json();
-                console.log('Questions data:', JSON.stringify(data.random_questions.slice(0, 2), null, 2));
-                const questions = data.random_questions;
-
-                if (!questions || questions.length === 0) {
-                    errorDiv.textContent = 'No questions available. Please check server logs.';
-                    console.error('No questions returned');
+                if (!quizContainer || !errorDiv || !submitButton || !resetButton) {
+                    console.error('Missing critical elements:', {
+                        quizContainer: !!quizContainer,
+                        errorDiv: !!errorDiv,
+                        submitButton: !!submitButton,
+                        resetButton: !!resetButton
+                    });
                     return;
                 }
 
-                questions.forEach((q, index) => {
-                    console.log(`Processing question ${index + 1}:`, q);
-                    const questionDiv = document.createElement('div');
-                    questionDiv.className = 'question';
-                    const optionKeys = ['option 1', 'option 2', 'option 3', 'option 4'];
-                    const optionsHtml = optionKeys.map((key, i) => {
-                        const optionText = q[key] || `Option ${i + 1} missing`;
-                        return `<label><input type="radio" name="q${index}" value="${i + 1}"> <span>${optionText}</span></label>`;
-                    }).join('');
-                    questionDiv.innerHTML = `
-                        <p>${index + 1}. ${q.question || 'Question missing'}</p>
-                        <div class="options">${optionsHtml}</div>
-                        <div class="feedback" id="feedback-${index}"></div>
-                    `;
-                    quizContainer.appendChild(questionDiv);
-                    console.log(`Rendered question ${index + 1}: ${q.question}, Options: ${optionKeys.map(k => q[k]).join(', ')}`);
+                quizContainer.innerHTML = '';
+                errorDiv.innerHTML = '';
+                submitButton.style.display = 'none';
+                resetButton.style.display = 'none';
+                document.getElementById('progress-bar').style.width = '0%';
+                document.getElementById('progress-bar').setAttribute('aria-valuenow', 0);
+                console.log('Cleared quiz container and reset UI elements');
 
-                    const radioButtons = questionDiv.querySelectorAll(`input[name="q${index}"]`);
-                    console.log(`Radio buttons for q${index}: ${radioButtons.length}`);
-                    radioButtons.forEach(input => {
-                        input.addEventListener('change', async () => {
-                            console.log(`Selected option ${input.value} for question ${index + 1}`);
-                            radioButtons.forEach(i => i.disabled = true);
-                            const selectedOption = input.value;
-                            const questionText = q.question;
+                try {
+                    console.log('Fetching questions from /api/questions');
+                    const response = await fetch('/api/questions', { method: 'GET' });
+                    console.log('Fetch response status:', response.status);
+                    if (!response.ok) {
+                        const errorText = await response.text();
+                        throw new Error(`Failed to load questions: ${response.status} ${errorText}`);
+                    }
+                    const data = await response.json();
+                    console.log('Questions data:', JSON.stringify(data.random_questions.slice(0, 2), null, 2));
+                    const questions = data.random_questions;
 
-                            try {
-                                const response = await fetch('/api/check_answer', {
-                                    method: 'POST',
-                                    headers: { 'Content-Type': 'application/json' },
-                                    body: JSON.stringify({ question: questionText, selectedOption })
-                                });
-                                console.log('Check answer response:', response.status);
-                                const result = await response.json();
-                                const feedbackDiv = document.getElementById(`feedback-${index}`);
-                                if (response.ok) {
-                                    if (result.isCorrect) {
-                                        feedbackDiv.textContent = `Correct!`;
-                                        feedbackDiv.className = 'feedback correct';
-                                        input.nextElementSibling.style.color = 'green';
+                    if (!questions || questions.length === 0) {
+                        errorDiv.textContent = 'No questions available. Please check server logs.';
+                        console.error('No questions returned');
+                        return;
+                    }
+
+                    questions.forEach((q, index) => {
+                        console.log(`Processing question ${index + 1}:`, q);
+                        const questionDiv = document.createElement('div');
+                        questionDiv.className = 'question';
+                        const optionKeys = ['option 1', 'option 2', 'option 3', 'option 4'];
+                        const optionsHtml = optionKeys.map((key, i) => {
+                            const optionText = q[key] || `Option ${i + 1} missing`;
+                            console.log(`Option ${i + 1} for question ${index + 1}: ${optionText}`);
+                            return `<label><input type="radio" name="q${index}" value="${i + 1}"> <span>${optionText}</span></label>`;
+                        }).join('');
+                        questionDiv.innerHTML = `
+                            <p>${index + 1}. ${q.question || 'Question missing'}</p>
+                            <div class="options">${optionsHtml}</div>
+                            <div class="feedback" id="feedback-${index}"></div>
+                        `;
+                        quizContainer.appendChild(questionDiv);
+                        console.log(`Rendered question ${index + 1}: ${q.question}, Options: ${optionKeys.map(k => q[k]).join(', ')}`);
+
+                        const radioButtons = questionDiv.querySelectorAll(`input[name="q${index}"]`);
+                        console.log(`Radio buttons for q${index}: ${radioButtons.length}`);
+                        radioButtons.forEach(input => {
+                            input.addEventListener('change', async () => {
+                                console.log(`Selected option ${input.value} for question ${index + 1}`);
+                                radioButtons.forEach(i => i.disabled = true);
+                                const selectedOption = input.value;
+                                const questionText = q.question;
+
+                                try {
+                                    const response = await fetch('/api/check_answer', {
+                                        method: 'POST',
+                                        headers: { 'Content-Type': 'application/json' },
+                                        body: JSON.stringify({ question: questionText, selectedOption })
+                                    });
+                                    console.log('Check answer response:', response.status);
+                                    const result = await response.json();
+                                    const feedbackDiv = document.getElementById(`feedback-${index}`);
+                                    if (response.ok) {
+                                        if (result.isCorrect) {
+                                            feedbackDiv.textContent = `Correct!`;
+                                            feedbackDiv.className = 'feedback correct';
+                                            input.nextElementSibling.style.color = 'green';
+                                        } else {
+                                            feedbackDiv.textContent = `Incorrect. Correct answer: Option ${result.correctAnswer}`;
+                                            feedbackDiv.className = 'feedback incorrect';
+                                            const correctInput = questionDiv.querySelector(`input[value="${result.correctAnswer}"]`);
+                                            if (correctInput) correctInput.nextElementSibling.style.color = 'green';
+                                        }
+                                        const answered = document.querySelectorAll('.question input[type="radio"]:checked').length;
+                                        const progress = (answered / 80) * 100;
+                                        document.getElementById('progress-bar').style.width = `${progress}%`;
+                                        document.getElementById('progress-bar').setAttribute('aria-valuenow', answered);
+                                        console.log(`Progress: ${answered}/80 questions answered`);
                                     } else {
-                                        feedbackDiv.textContent = `Incorrect. Correct answer: Option ${result.correctAnswer}`;
+                                        feedbackDiv.textContent = `Error: ${result.error}`;
                                         feedbackDiv.className = 'feedback incorrect';
-                                        const correctInput = questionDiv.querySelector(`input[value="${result.correctAnswer}"]`);
-                                        if (correctInput) correctInput.nextElementSibling.style.color = 'green';
+                                        console.error('Check answer error:', result.error);
                                     }
-                                    const answered = document.querySelectorAll('.question input[type="radio"]:checked').length;
-                                    const progress = (answered / 80) * 100;
-                                    document.getElementById('progress-bar').style.width = `${progress}%`;
-                                    document.getElementById('progress-bar').setAttribute('aria-valuenow', answered);
-                                    console.log(`Progress: ${answered}/80 questions answered`);
-                                } else {
-                                    feedbackDiv.textContent = `Error: ${result.error}`;
-                                    feedbackDiv.className = 'feedback incorrect';
-                                    console.error('Check answer error:', result.error);
+                                } catch (error) {
+                                    feedbackDiv.textContent = `Error: ${error.message}`;
+                                    console.error('Fetch error:', error.message);
                                 }
-                            } catch (error) {
-                                feedbackDiv.textContent = `Error: ${error.message}`;
-                                console.error('Fetch error:', error.message);
-                            }
+                            });
                         });
                     });
-                });
-                console.log(`Total rendered questions: ${questions.length}`);
-                submitButton.style.display = 'block';
-                resetButton.style.display = 'block';
-            } catch (error) {
-                errorDiv.textContent = `Error: ${error.message}`;
-                console.error('Generate questions error:', error.message);
+                    console.log(`Total rendered questions: ${questions.length}`);
+                    submitButton.style.display = 'block';
+                    resetButton.style.display = 'block';
+                } catch (error) {
+                    errorDiv.textContent = `Error: ${error.message}`;
+                    console.error('Generate questions error:', error.message);
+                }
             }
-        }
 
-        async function submitQuiz() {
-            console.log('Submitting quiz...');
-            const answers = [];
-            document.querySelectorAll('.question').forEach((q, index) => {
-                const selected = document.querySelector(`input[name="q${index}"]:checked`);
-                answers.push({
-                    question: q.querySelector('p').textContent.replace(/^\d+\.\s/, ''),
-                    selectedOption: selected ? selected.value : null
+            function submitQuiz() {
+                console.log('submitQuiz function called');
+                const answers = [];
+                document.querySelectorAll('.question').forEach((q, index) => {
+                    const selected = document.querySelector(`input[name="q${index}"]:checked`);
+                    answers.push({
+                        question: q.querySelector('p').textContent.replace(/^\d+\.\s/, ''),
+                        selectedOption: selected ? selected.value : null
+                    });
                 });
-            });
-            console.log('Submitting answers:', answers.slice(0, 2));
-            try {
-                const response = await fetch('/api/submit', {
+                console.log('Submitting answers:', answers.slice(0, 2));
+                fetch('/api/submit', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(answers)
-                });
-                console.log('Submit response:', response.status);
-                if (!response.ok) {
-                    const errorText = await response.text();
-                    throw new Error(`Failed to submit: ${response.status} ${errorText}`);
-                }
-                const result = await response.json();
-                alert(`Your score: ${result.score}/${answers.length}`);
-                console.log(`Score: ${result.score}/${answers.length}`);
-            } catch (error) {
-                document.getElementById('error').textContent = `Error: ${error.message}`;
-                console.error('Submit error:', error.message);
+                })
+                    .then(response => {
+                        console.log('Submit response:', response.status);
+                        if (!response.ok) {
+                            return response.text().then(text => { throw new Error(`Failed to submit: ${response.status} ${text}`); });
+                        }
+                        return response.json();
+                    })
+                    .then(result => {
+                        alert(`Your score: ${result.score}/${answers.length}`);
+                        console.log(`Score: ${result.score}/${answers.length}`);
+                    })
+                    .catch(error => {
+                        document.getElementById('error').textContent = `Error: ${error.message}`;
+                        console.error('Submit error:', error.message);
+                    });
             }
-        }
 
-        function resetQuiz() {
-            console.log('Resetting quiz...');
-            document.getElementById('quiz-container').innerHTML = '';
-            document.getElementById('progress-bar').style.width = '0%';
-            document.getElementById('progress-bar').setAttribute('aria-valuenow', 0);
-            document.getElementById('submit-quiz').style.display = 'none';
-            document.getElementById('reset-quiz').style.display = 'none';
-            document.getElementById('error').textContent = '';
-            generateQuestions();
+            function resetQuiz() {
+                console.log('resetQuiz function called');
+                document.getElementById('quiz-container').innerHTML = '';
+                document.getElementById('progress-bar').style.width = '0%';
+                document.getElementById('progress-bar').setAttribute('aria-valuenow', 0);
+                document.getElementById('submit-quiz').style.display = 'none';
+                document.getElementById('reset-quiz').style.display = 'none';
+                document.getElementById('error').textContent = '';
+                generateQuestions();
+            }
+
+            document.getElementById('submit-quiz').addEventListener('click', submitQuiz);
+            document.getElementById('reset-quiz').addEventListener('click', resetQuiz);
+        } catch (error) {
+            console.error('Global script error:', error.message);
         }
     </script>
 </body>
