@@ -8,6 +8,11 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+@app.route('/')
+def index():
+    logger.info("Serving index.html")
+    return app.send_static_file('index.html')
+
 def load_questions():
     try:
         file_path = os.path.join(os.path.dirname(__file__), '..', 'questions.json')
