@@ -76,6 +76,12 @@
             if (!document.getElementById('load-quiz')) {
                 console.error('Load Quiz button not found');
             }
+            if (!document.getElementById('submit-quiz')) {
+                console.error('Submit Quiz button not found');
+            }
+            if (!document.getElementById('reset-quiz')) {
+                console.error('Reset Quiz button not found');
+            }
         });
 
         document.getElementById('load-quiz').addEventListener('click', loadQuiz);
@@ -107,12 +113,16 @@
                 const questions = data.random_questions;
 
                 if (!questions || questions.length === 0) {
-                    errorDiv.textContent = 'No questions available.';
+                    errorDiv.textContent = 'No questions available. Please check server logs.';
                     console.error('No questions returned');
                     return;
                 }
 
                 questions.forEach((q, index) => {
+                    if (!q.question || !q['Option 1'] || !q['Option 2'] || !q['Option 3'] || !q['Option 4']) {
+                        console.warn(`Skipping invalid question at index ${index}:`, q);
+                        return;
+                    }
                     const questionDiv = document.createElement('div');
                     questionDiv.className = 'question';
                     questionDiv.innerHTML = `
@@ -170,6 +180,7 @@
                 });
                 submitButton.style.display = 'block';
                 resetButton.style.display = 'block';
+                console.log('Quiz loaded, submit and reset buttons enabled');
             } catch (error) {
                 errorDiv.textContent = `Error: ${error.message}`;
                 console.error('Load quiz error:', error.message);
@@ -186,6 +197,7 @@
                     selectedOption: selected ? selected.value : null
                 });
             });
+            console.log('Submitting answers:', answers);
             try {
                 const response = await fetch('/api/submit', {
                     method: 'POST',
