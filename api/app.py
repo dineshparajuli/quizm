@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 
 def load_questions():
     try:
-        # Use absolute path for robustness
         file_path = os.path.join(os.path.dirname(__file__), '..', 'questions.json')
         logger.info(f"Attempting to load questions from {file_path}")
         if not os.path.exists(file_path):
@@ -23,8 +22,13 @@ def load_questions():
         if not isinstance(questions, list) or not questions:
             logger.error("questions.json is empty or not a list")
             return []
-        logger.info(f"Loaded {len(questions)} questions")
-        return questions
+        valid_questions = [
+            q for q in questions
+            if all(field in q for field in ['question', 'Option 1', 'Option 2', 'Option 3', 'Option 4', 'CorrectAnswer'])
+            and all(isinstance(q[field], str) for field in ['question', 'Option 1', 'Option 2', 'Option 3', 'Option 4', 'CorrectAnswer'])
+        ]
+        logger.info(f"Loaded {len(valid_questions)} valid questions")
+        return valid_questions
     except json.JSONDecodeError as e:
         logger.error(f"Invalid JSON format in questions.json: {e}")
         return []
@@ -46,6 +50,7 @@ def get_random_questions():
 @app.route('/api/check_answer', methods=['POST'])
 def check_answer():
     data = request.get_json()
+    logger.info(f"Received check_answer request: {data}")
     question_text = data.get('question')
     selected_option = data.get('selectedOption')
     if not question_text or not selected_option:
@@ -66,6 +71,7 @@ def check_answer():
 @app.route('/api/submit', methods=['POST'])
 def submit_answers():
     user_answers = request.get_json()
+    logger.info(f"Received submit request with {len(user_answers)} answers")
     if not user_answers:
         logger.error("No answers provided in submit")
         return jsonify({"error": "No answers provided"}), 400
