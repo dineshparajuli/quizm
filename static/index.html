@@ -70,6 +70,14 @@
     <div id="quiz-container"></div>
 
     <script>
+        console.log('Script loaded');
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM fully loaded');
+            if (!document.getElementById('load-quiz')) {
+                console.error('Load Quiz button not found');
+            }
+        });
+
         document.getElementById('load-quiz').addEventListener('click', loadQuiz);
         document.getElementById('submit-quiz').addEventListener('click', submitQuiz);
         document.getElementById('reset-quiz').addEventListener('click', resetQuiz);
@@ -90,7 +98,10 @@
             try {
                 const response = await fetch('/api/questions', { method: 'GET' });
                 console.log('Fetch /api/questions response:', response.status);
-                if (!response.ok) throw new Error(`Failed to load questions: ${response.status}`);
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    throw new Error(`Failed to load questions: ${response.status} ${errorText}`);
+                }
                 const data = await response.json();
                 console.log('Questions data:', data);
                 const questions = data.random_questions;
@@ -182,7 +193,10 @@
                     body: JSON.stringify(answers)
                 });
                 console.log('Submit response:', response.status);
-                if (!response.ok) throw new Error(`Failed to submit: ${response.status}`);
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    throw new Error(`Failed to submit: ${response.status} ${errorText}`);
+                }
                 const result = await response.json();
                 alert(`Your score: ${result.score}/${answers.length}`);
                 console.log(`Score: ${result.score}/${answers.length}`);
