@@ -47,7 +47,7 @@
                     const data = await response.json();
                     console.log('Data received:', JSON.stringify(data.random_questions.slice(0, 1), null, 2));
 
-                    const questions = data.random_questions.slice(0, 1); // Test one question
+                    const questions = data.random_questions.slice(0, 1); // One question
                     questions.forEach((q, index) => {
                         console.log(`Rendering question ${index + 1}:`, q);
                         const questionDiv = document.createElement('div');
@@ -62,6 +62,7 @@
                         quizContainer.appendChild(questionDiv);
                         console.log(`Radio buttons for q${index}: ${questionDiv.querySelectorAll(`input[name="q${index}"]`).length}`);
                     });
+                    console.log('Rendering complete');
                 } catch (error) {
                     console.error('Error in generateQuestions:', error.message);
                     errorDiv.textContent = `Error: ${error.message}`;
