@@ -51,6 +51,7 @@ def check_answer():
         logger.error(f"Question not found: {question_text}")
         return jsonify({"error": "Question not found"}), 404
     is_correct = str(question['CorrectAnswer']) == str(selected_option)
+    logger.info(f"Checking answer for question: {question_text}, selected: {selected_option}, correct: {is_correct}")
     return jsonify({
         "isCorrect": is_correct,
         "correctAnswer": question['CorrectAnswer']
@@ -68,11 +69,13 @@ def submit_answers():
         question = next((q for q in questions if q['question'] == user_answer['question']), None)
         if question and user_answer['selectedOption'] == str(question['CorrectAnswer']):
             score += 1
+    logger.info(f"Quiz submitted, score: {score}")
     return jsonify({"score": score})
 
 @app.route('/')
 def index():
     try:
+        logger.info("Serving index.html")
         return app.send_static_file('index.html')
     except FileNotFoundError:
         logger.error("index.html not found in static folder")
