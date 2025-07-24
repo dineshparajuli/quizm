@@ -22,8 +22,8 @@ def load_questions():
             return []
         valid_questions = [
             q for q in questions
-            if all(field in q for field in ['question', 'Option 1', 'Option 2', 'Option 3', 'Option 4', 'CorrectAnswer'])
-            and all(isinstance(q[field], str) for field in ['question', 'Option 1', 'Option 2', 'Option 3', 'Option 4', 'CorrectAnswer'])
+            if all(field in q for field in ['question', 'option 1', 'option 2', 'option 3', 'option 4', 'CorrectAnswer'])
+            and all(isinstance(q[field], str) for field in ['question', 'option 1', 'option 2', 'option 3', 'option 4', 'CorrectAnswer'])
         ]
         logger.info(f"Loaded {len(valid_questions)} valid questions")
         return valid_questions
