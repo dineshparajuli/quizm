@@ -35,6 +35,10 @@
             display: block;
             margin: 5px 0;
             cursor: pointer;
+            font-size: 1em;
+        }
+        .options input {
+            margin-right: 10px;
         }
         .options input:checked + span {
             font-weight: bold;
@@ -42,10 +46,12 @@
         .correct {
             color: green;
             font-weight: bold;
+            margin-top: 5px;
         }
         .incorrect {
             color: red;
             font-weight: bold;
+            margin-top: 5px;
         }
         #load-quiz, #submit-quiz, #reset-quiz {
             display: block;
@@ -90,102 +96,4 @@
             const quizContainer = document.getElementById('quiz-container');
             const errorDiv = document.getElementById('error');
             const submitButton = document.getElementById('submit-quiz');
-            const resetButton = document.getElementById('reset-quiz');
-            quizContainer.innerHTML = '';
-            errorDiv.innerHTML = '';
-            submitButton.style.display = 'none';
-            resetButton.style.display = 'none';
-            document.getElementById('progress-bar').style.width = '0%';
-            document.getElementById('progress-bar').setAttribute('aria-valuenow', 0);
-
-            try {
-                const response = await fetch('/api/questions', { method: 'GET' });
-                console.log('Fetch /api/questions response:', response.status);
-                if (!response.ok) {
-                    const errorText = await response.text();
-                    throw new Error(`Failed to load questions: ${response.status} ${errorText}`);
-                }
-                const data = await response.json();
-                console.log('Questions data:', data);
-                const questions = data.random_questions;
-
-                if (!questions || questions.length === 0) {
-                    errorDiv.textContent = 'No questions available. Please check server logs.';
-                    console.error('No questions returned');
-                    return;
-                }
-
-                questions.forEach((q, index) => {
-                    if (!q.question || !q['Option 1'] || !q['Option 2'] || !q['Option 3'] || !q['Option 4']) {
-                        console.warn(`Skipping invalid question at index ${index}:`, q);
-                        return;
-                    }
-                    const questionDiv = document.createElement('div');
-                    questionDiv.className = 'question';
-                    questionDiv.innerHTML = `
-                        <p>${index + 1}. ${q.question}</p>
-                        <div class="options">
-                            <label><input type="radio" name="q${index}" value="1"> <span>${q['Option 1']}</span></label>
-                            <label><input type="radio" name="q${index}" value="2"> <span>${q['Option 2']}</span></label>
-                            <label><input type="radio" name="q${index}" value="3"> <span>${q['Option 3']}</span></label>
-                            <label><input type="radio" name="q${index}" value="4"> <span>${q['Option 4']}</span></label>
-                        </div>
-                        <div class="feedback" id="feedback-${index}"></div>
-                    `;
-                    quizContainer.appendChild(questionDiv);
-
-                    questionDiv.querySelectorAll(`input[name="q${index}"]`).forEach(input => {
-                        input.addEventListener('change', async () => {
-                            console.log(`Selected option ${input.value} for question ${index + 1}`);
-                            // Disable all options for this question
-                            questionDiv.querySelectorAll(`input[name="q${index}"]`).forEach(i => i.disabled = true);
-                            const selectedOption = input.value;
-                            const questionText = q.question;
-
-                            try {
-                                const response = await fetch('/api/check_answer', {
-                                    method: 'POST',
-                                    headers: { 'Content-Type': 'application/json' },
-                                    body: JSON.stringify({ question: questionText, selectedOption })
-                                });
-                                console.log('Check answer response:', response.status);
-                                const result = await response.json();
-                                const feedbackDiv = document.getElementById(`feedback-${index}`);
-                                if (response.ok) {
-                                    if (result.isCorrect) {
-                                        feedbackDiv.textContent = `Correct!`;
-                                        feedbackDiv.className = 'feedback correct';
-                                    } else {
-                                        feedbackDiv.textContent = `Incorrect. Correct answer: Option ${result.correctAnswer}`;
-                                        feedbackDiv.className = 'feedback incorrect';
-                                    }
-                                    // Update progress bar
-                                    const answered = document.querySelectorAll('.question input[type="radio"]:checked').length;
-                                    const progress = (answered / 80) * 100;
-                                    document.getElementById('progress-bar').style.width = `${progress}%`;
-                                    document.getElementById('progress-bar').setAttribute('aria-valuenow', answered);
-                                    console.log(`Progress: ${answered}/80 questions answered`);
-                                } else {
-                                    feedbackDiv.textContent = `Error: ${result.error}`;
-                                    feedbackDiv.className = 'feedback incorrect';
-                                    console.error('Check answer error:', result.error);
-                                }
-                            } catch (error) {
-                                document.getElementById(`feedback-${index}`).textContent = `Error: ${error.message}`;
-                                console.error('Fetch error:', error.message);
-                            }
-                        });
-                    });
-                });
-                submitButton.style.display = 'block';
-                resetButton.style.display = 'block';
-                console.log('Quiz loaded, buttons enabled');
-            } catch (error) {
-                errorDiv.textContent = `Error: ${error.message}`;
-                console.error('Load quiz error:', error.message);
-            }
-        }
-
-        async function submitQuiz() {
-            console.log('Submitting quiz...');
-            const answers =
+            const resetButton = document
