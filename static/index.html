@@ -42,6 +42,7 @@
             vertical-align: middle;
             width: 20px;
             height: 20px;
+            border: 2px solid red; /* Debug visibility */
         }
         .options span {
             vertical-align: middle;
@@ -119,7 +120,7 @@
                     throw new Error(`Failed to load questions: ${response.status} ${errorText}`);
                 }
                 const data = await response.json();
-                console.log('Questions data:', data);
+                console.log('Questions data:', JSON.stringify(data, null, 2));
                 const questions = data.random_questions;
 
                 if (!questions || questions.length === 0) {
@@ -128,35 +129,29 @@
                     return;
                 }
 
-                let validQuestionCount = 0;
                 questions.forEach((q, index) => {
-                    // Minimal validation since questions.json is confirmed correct
-                    const requiredFields = ['question', 'Option 1', 'Option 2', 'Option 3', 'Option 4'];
-                    const isValid = requiredFields.every(field => q[field] !== undefined && q[field] !== null);
-                    if (!isValid) {
-                        console.warn(`Skipping question at index ${index} due to missing fields:`, q);
-                        return;
-                    }
-                    validQuestionCount++;
+                    console.log(`Processing question ${index + 1}:`, q);
                     const questionDiv = document.createElement('div');
                     questionDiv.className = 'question';
                     questionDiv.innerHTML = `
-                        <p>${validQuestionCount}. ${q.question}</p>
+                        <p>${index + 1}. ${q.question || 'Question missing'}</p>
                         <div class="options">
-                            <label><input type="radio" name="q${validQuestionCount - 1}" value="1"> <span>${q['Option 1'] || 'Option 1 missing'}</span></label>
-                            <label><input type="radio" name="q${validQuestionCount - 1}" value="2"> <span>${q['Option 2'] || 'Option 2 missing'}</span></label>
-                            <label><input type="radio" name="q${validQuestionCount - 1}" value="3"> <span>${q['Option 3'] || 'Option 3 missing'}</span></label>
-                            <label><input type="radio" name="q${validQuestionCount - 1}" value="4"> <span>${q['Option 4'] || 'Option 4 missing'}</span></label>
+                            <label><input type="radio" name="q${index}" value="1"> <span>${q['Option 1'] || 'Option 1 missing'}</span></label>
+                            <label><input type="radio" name="q${index}" value="2"> <span>${q['Option 2'] || 'Option 2 missing'}</span></label>
+                            <label><input type="radio" name="q${index}" value="3"> <span>${q['Option 3'] || 'Option 3 missing'}</span></label>
+                            <label><input type="radio" name="q${index}" value="4"> <span>${q['Option 4'] || 'Option 4 missing'}</span></label>
                         </div>
-                        <div class="feedback" id="feedback-${validQuestionCount - 1}"></div>
+                        <div class="feedback" id="feedback-${index}"></div>
                     `;
                     quizContainer.appendChild(questionDiv);
-                    console.log(`Rendered question ${validQuestionCount}: ${q.question}, Options: ${[q['Option 1'], q['Option 2'], q['Option 3'], q['Option 4']].join(', ')}`);
+                    console.log(`Rendered question ${index + 1}: ${q.question}, Options: ${[q['Option 1'], q['Option 2'], q['Option 3'], q['Option 4']].join(', ')}`);
 
-                    questionDiv.querySelectorAll(`input[name="q${validQuestionCount - 1}"]`).forEach(input => {
+                    const radioButtons = questionDiv.querySelectorAll(`input[name="q${index}"]`);
+                    console.log(`Radio buttons for q${index}: ${radioButtons.length}`);
+                    radioButtons.forEach(input => {
                         input.addEventListener('change', async () => {
-                            console.log(`Selected option ${input.value} for question ${validQuestionCount}`);
-                            questionDiv.querySelectorAll(`input[name="q${validQuestionCount - 1}"]`).forEach(i => i.disabled = true);
+                            console.log(`Selected option ${input.value} for question ${index + 1}`);
+                            radioButtons.forEach(i => i.disabled = true);
                             const selectedOption = input.value;
                             const questionText = q.question;
 
@@ -168,7 +163,7 @@
                                 });
                                 console.log('Check answer response:', response.status);
                                 const result = await response.json();
-                                const feedbackDiv = document.getElementById(`feedback-${validQuestionCount - 1}`);
+                                const feedbackDiv = document.getElementById(`feedback-${index}`);
                                 if (response.ok) {
                                     if (result.isCorrect) {
                                         feedbackDiv.textContent = `Correct!`;
@@ -196,12 +191,7 @@
                         });
                     });
                 });
-                if (validQuestionCount === 0) {
-                    errorDiv.textContent = 'No valid questions could be rendered. Check question data.';
-                    console.error('No valid questions rendered');
-                    return;
-                }
-                console.log(`Total rendered questions: ${validQuestionCount}`);
+                console.log(`Total rendered questions: ${questions.length}`);
                 submitButton.style.display = 'block';
                 resetButton.style.display = 'block';
             } catch (error) {
