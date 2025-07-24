@@ -1,0 +1,4565 @@
+[
+    {
+        "question": "Nepal is placed in grey list with the decision of FATF plenary meeting held on :",
+        "Option 1": "July 2023",
+        "Option 2": "October 2024",
+        "Option 3": "January 2025",
+        "Option 4": "February 2025",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Nepal was previously on FATF grey-list countries for the period:",
+        "Option 1": "2000-2014",
+        "Option 2": "2008-2014",
+        "Option 3": "2000-2008",
+        "Option 4": "2014-2023",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of the action plan needs to be implemented by Nepal as per FATF's recommendation to exit from 'Grey-List'?",
+        "Option 1": "Improving Risk-based supervision of commercial banks and higher risk co-operatives",
+        "Option 2": "Improving Risk-based supervision of casions and dealers of precious metals and stones",
+        "Option 3": "Improving Risk-based supervision of real estate sector",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which international body is primarily responsible for setting global standards for Anti-Money Laundering (AML) and Combating the Financing of Terrorism (CFT)?",
+        "Option 1": "Interpol",
+        "Option 2": "World Bank",
+        "Option 3": "Financial Action Task Force (FATF)",
+        "Option 4": "International Monetary Fund (IMF)",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "As per FATF, as of February 2025, how many countries are 'High Risk Jurisdictions i.e. Black List'?",
+        "Option 1": 2,
+        "Option 2": 3,
+        "Option 3": 5,
+        "Option 4": 6,
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Number of 'Grey-List' countries listed by FATF, February 2025:",
+        "Option 1": 10,
+        "Option 2": 20,
+        "Option 3": 25,
+        "Option 4": 30,
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the primary objective of Anti-Money Laundering (AML) regulations?",
+        "Option 1": "To prevent the misuse of financial systems by criminals",
+        "Option 2": " To promote economic growth",
+        "Option 3": "To increase international trade",
+        "Option 4": "To control tax evasion",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What does the term \"proliferation financing\" refer to?",
+        "Option 1": "Financing of political campaigns",
+        "Option 2": "Financing the development of new technology",
+        "Option 3": "Financing small businesses in emerging markets",
+        "Option 4": "Financing the spread of nuclear, chemical, or biological weapons",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of the following practices is recommended to mitigate risks of money laundering and terrorism financing?",
+        "Option 1": "Ignoring small transactions",
+        "Option 2": "Conducting customer due diligence (CDD)",
+        "Option 3": "Relying solely on automated systems",
+        "Option 4": "Avoiding transactions with new customers",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the main role of Suspicious Activity Reports (SARs) in the context of AML/CFT?",
+        "Option 1": "To notify authorities about potential money laundering or terrorist financing activities",
+        "Option 2": "To inform customers about their account activities",
+        "Option 3": "To advertise bank services",
+        "Option 4": "To provide tax authorities with financial information",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which type of transaction is most likely to raise a red flag for money laundering?",
+        "Option 1": "Small, infrequent withdrawals",
+        "Option 2": "Large cash deposits made in multiple small amounts",
+        "Option 3": "Regular salary deposits",
+        "Option 4": "Monthly mortgage payments",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the main focus of proliferation financing controls?",
+        "Option 1": "Preventing the spread of financial crises",
+        "Option 2": "Regulating the global stock market",
+        "Option 3": "Promoting economic growth in developing countries",
+        "Option 4": "Stopping the financing of the development and acquisition of weapons of mass destruction",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which document sets out measures to prevent, detect, and combat the financing of terrorism and proliferation of Weapon of Mass Destructions?",
+        "Option 1": "The Basel III Accord",
+        "Option 2": "The Kyoto Protocol",
+        "Option 3": "The FATF 40 Recommendations",
+        "Option 4": "The Universal Declaration of Human Rights",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the primary purpose of the FATF's 40 Recommendations?",
+        "Option 1": "To regulate global stock markets",
+        "Option 2": "To promote international trade agreements",
+        "Option 3": "To manage global economic policies",
+        "Option 4": "To establish international standards for combating money laundering and terrorist financing",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of the following areas is NOT directly covered by the FATF's 40 Recommendations?",
+        "Option 1": "Customer due diligence",
+        "Option 2": "International trade tariffs",
+        "Option 3": "Beneficial ownership transparency",
+        "Option 4": "Reporting of suspicious transactions",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of the following is a key component of Recommendation 10 of the FATF's 40 Recommendations?",
+        "Option 1": "Conducting customer due diligence when establishing business relationships",
+        "Option 2": "Ensuring timely payment of taxes",
+        "Option 3": "Reporting all cash transactions over a certain threshold",
+        "Option 4": "Regulating international currency exchange rates",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Recommendation 16 of the FATF's 40 Recommendations specifically deals with:",
+        "Option 1": "The regulation of securities markets",
+        "Option 2": "The imposition of sanctions on non-compliant countries",
+        "Option 3": "The prevention of corruption in public offices",
+        "Option 4": "Wire transfers and the requirement to include originator and beneficiary information",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "According to the FATF, what is the role of financial institutions in combating money laundering and terrorist financing?",
+        "Option 1": "To promote international trade",
+        "Option 2": "To provide loans to all customers",
+        "Option 3": "To implement robust AML/CFT measures and report suspicious activities",
+        "Option 4": "To reduce interest rates for compliant customers",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of the following is a key aspect of Recommendation 24 regarding transparency and beneficial ownership of legal persons?",
+        "Option 1": "Establishing a public registry for all business transactions",
+        "Option 2": "Ensuring that information on the beneficial ownership of legal persons is available to competent authorities",
+        "Option 3": "Mandating that all legal persons submit quarterly financial reports",
+        "Option 4": " Requiring legal persons to hold annual public meetings",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which FATF Recommendation focuses on the need for countries to identify and assess their money laundering and terrorist financing risks?",
+        "Option 1": "Recommendation 1",
+        "Option 2": "Recommendation 15",
+        "Option 3": "Recommendation 20",
+        "Option 4": " Recommendation 40",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the focus of FATF Recommendation 22?",
+        "Option 1": "Customer due diligence requirements for designated non-financial businesses and professions (DNFBPs)",
+        "Option 2": " Measures to prevent the financing of terrorism",
+        "Option 3": "Sanctions and embargoes",
+        "Option 4": "International cooperation",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "DNFBP stand for \u2026.....................",
+        "Option 1": "Designation non-financial businesses and professions",
+        "Option 2": "Designated non-financial businesses and professional",
+        "Option 3": "Designated non-financial businesses and professions",
+        "Option 4": "Designated financial businesses and professions",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is required under FATF Recommendation 11 regarding record-keeping?",
+        "Option 1": "Financial institutions must keep records of all transactions for at least 5 years",
+        "Option 2": " Financial institutions must report all transactions to the central bank",
+        "Option 3": "Financial institutions must destroy records after 1 year",
+        "Option 4": "Financial institutions must only keep records of suspicious transactions",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which FATF Recommendation addresses the need for countries to have effective mechanisms for international cooperation?",
+        "Option 1": "Recommendation 12",
+        "Option 2": " Recommendation 21",
+        "Option 3": "Recommendation 36",
+        "Option 4": "Recommendation 38",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which body in Nepal is primarily responsible for implementing FATF recommendations?",
+        "Option 1": "Nepal Rastra Bank (NRB)",
+        "Option 2": "Securities Board of Nepal (SEBON)",
+        "Option 3": "Financial Inteligence Unit (FIU) Nepal",
+        "Option 4": "Ministry of Finance",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Nepal is a member of which of the FATF's regional inter-international body ?",
+        "Option 1": "South Asian Association for Regional Cooperation (SAARC)",
+        "Option 2": "Asia/Pacific Group on Money Laundering (APG)",
+        "Option 3": "World Bank",
+        "Option 4": " International Monetary Fund (IMF)",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Why is it important for Nepal to comply with FATF recommendations?",
+        "Option 1": "To increase domestic tax revenue",
+        "Option 2": "To receive foreign aid",
+        "Option 3": "To maintain access to the international financial system and avoid economic sanctions",
+        "Option 4": "To promote cultural exchanges\n",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is a key requirement for financial institutions regarding politically exposed persons (PEPs) as per Directive No-19?",
+        "Option 1": "PEPs should be offered higher interest rates",
+        "Option 2": "Enhanced due diligence must be conducted for PEPs",
+        "Option 3": "PEPs should be exempt from AML/CFT regulations",
+        "Option 4": "PEPs should receive priority service",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is a money mule ?",
+        "Option 1": "A bank employee who handles cash deposits",
+        "Option 2": "An individual who transfers illegally acquired money on behalf of others, often unwittingly",
+        "Option 3": "A person who withdraws large sums of money from ATMs",
+        "Option 4": "A financial advisor who manages investment portfolios",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Why do criminals use money mules?",
+        "Option 1": "To increase the interest rate on their deposits",
+        "Option 2": "To avoid detection by law enforcement and financial institutions",
+        "Option 3": "To diversify their investment portfolios",
+        "Option 4": "To improve their credit scores",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which red flag might indicate that a person is being used as a money mule?",
+        "Option 1": "Frequent travel for business purposes",
+        "Option 2": "Regular salary deposits from their employer",
+        "Option 3": "Receiving multiple deposits from unknown sources followed by immediate withdrawals or transfers",
+        "Option 4": "Making large purchases with a credit card",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which stage of money laundering involves separating illicit proceeds from their source through complex financial transactions?",
+        "Option 1": "Placement",
+        "Option 2": "Integration",
+        "Option 3": "Layering",
+        "Option 4": "Structuring",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "During which stage of money laundering do individuals typically use smurfing to avoid suspicion?",
+        "Option 1": "Placement",
+        "Option 2": "Integration",
+        "Option 3": "Layering",
+        "Option 4": "Structuring",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of the following stages of money laundering involves integrating illicit funds into the legitimate economy to obscure their illicit origins?",
+        "Option 1": "Placement",
+        "Option 2": "Integration",
+        "Option 3": "Layering",
+        "Option 4": "Structuring",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Pursuant to AML Policy of the Bank Hotel and motels fall under which risk ?",
+        "Option 1": "High Risk",
+        "Option 2": "Moderate Risk",
+        "Option 3": "Low Risk",
+        "Option 4": "Any risk",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Pursuant to AML Policy of the Bank) High Net worth customer (for Corporate) means, customer having  yearly account deposit of \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026...",
+        "Option 1": "NPR 50 Million",
+        "Option 2": "NPR 500 Million",
+        "Option 3": "NPR 10 Million",
+        "Option 4": "NPR 200 Million",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Pursuant to AML Policy of the Bank) High Net worth customer (for Individual) means, customer having assets value declared in KYC form or yearly account deposit of \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026...",
+        "Option 1": "NPR 50 Million",
+        "Option 2": "NPR 500 Million",
+        "Option 3": "NPR 10 Million",
+        "Option 4": "NPR 200 Million",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Pursuant to AML Policy of the Bank Benificial Owner/Controlling person of Saving and credit Cooperative are required to classify into\u2026\u2026\u2026\u2026\u2026.....",
+        "Option 1": "High Risk",
+        "Option 2": "Moderate Risk",
+        "Option 3": "Low Risk",
+        "Option 4": "1 and 2 both",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "In which year Nepal Become member of Asia Pacific Group (APG)?",
+        "Option 1": 2000,
+        "Option 2": 2001,
+        "Option 3": 2002,
+        "Option 4": 2003,
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "When was the Anti-Money (Assets) Laundering Act first amended?",
+        "Option 1": "10 Baisakh 2068",
+        "Option 2": "18 Ashoj 2068",
+        "Option 3": "12 Chaitra 2070",
+        "Option 4": "18 Jestha 2068",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "District based NGO falles under ------- risk as per AML/CFT Policy of the Bank.",
+        "Option 1": "High Risk",
+        "Option 2": "Moderate Risk",
+        "Option 3": "Low Risk",
+        "Option 4": "May be High or Moderate ",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Public Limited Companies listed with Nepal Stock Exchange falls under\u2026\u2026\u2026 risk as per AML/CFT Policy of the Bank.",
+        "Option 1": "High Risk",
+        "Option 2": "Moderate Risk",
+        "Option 3": "Low Risk",
+        "Option 4": "May be High or Moderate ",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Pursunat to the AML/CFT policy of the Bank Unregulated charities and Companies with bearer shares falls under\u2026\u2026\u2026\u2026\u2026. Risk category.\n\n",
+        "Option 1": "High Risk",
+        "Option 2": "Moderate Risk",
+        "Option 3": "Low Risk",
+        "Option 4": "Prohibited List",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Who does not falls under PEPs?",
+        "Option 1": "Deputy Inspector General of Police and above",
+        "Option 2": "Attorney/ Deputy Attorney General\n",
+        "Option 3": "Chairman and Vice Chairman of Ward",
+        "Option 4": "Municipal Mayors and Deputy Mayors",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is terrorist financing?",
+        "Option 1": "Generating income through illegal action",
+        "Option 2": "Corruption",
+        "Option 3": "Financial support to terrorist",
+        "Option 4": "None of them",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What category of crime is Money Laundering? ",
+        "Option 1": "Theft Crime",
+        "Option 2": "Homicide",
+        "Option 3": "Financial Crimes",
+        "Option 4": "Violent Crime",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "A casino manager who mixes illicit money into the cash generated at the casino is engaging in:",
+        "Option 1": "Structuring",
+        "Option 2": "Smurfing",
+        "Option 3": "Integration",
+        "Option 4": "Layering",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of these describes a shell company?",
+        "Option 1": "Company with no physical presence of registered country or does not falls under effective supervision criteria",
+        "Option 2": "Company that conduct a lot of business activities globally",
+        "Option 3": "Company that have correct financial records.",
+        "Option 4": "Company having physical presence of registered country",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Splitting Nepalese based funds and depositing them in multiple overseas banks using multiple wire transfers  consistent with which stage of money laundering.",
+        "Option 1": "\nThese transactions are not consistent with a money laundering operation",
+        "Option 2": "Placement",
+        "Option 3": "Integration",
+        "Option 4": "Layering",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of these is not true about money laundering?",
+        "Option 1": "It is an illegal practice that occurs worldwide.",
+        "Option 2": "It can be done with small deposits of money.",
+        "Option 3": "It can be done through fraudulent record keeping",
+        "Option 4": "It typically involves the use of cash only",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the penalty for non-compliance of proper identification and due diligence of PEP",
+        "Option 1": "Up to 10 Million",
+        "Option 2": " Up to 5 Million",
+        "Option 3": "Up to 50 Million",
+        "Option 4": "No limit",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "As a branch compliance officer/operation in charge, it is part of  job ",
+        "Option 1": "To submit an Internal SAR",
+        "Option 2": "To have oversight on customer transaction",
+        "Option 3": "To ensure effective AML compliance within the branch/extension counter",
+        "Option 4": "All of the above",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of these activities might require a suspicious activity ",
+        "Option 1": "Customer cancels a transaction and requests to do a second transaction for less amount in order to avoid providing id.",
+        "Option 2": "Customer requests an unusually high cash transaction and cannot explain the reason for the transaction or the source of the cash",
+        "Option 3": "Customer appears nervous and asks unusual questions about your record keeping",
+        "Option 4": "All of the above",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the maximum penalty amount for non-compliance of Beneficial owner identification mechanism in Bank?",
+        "Option 1": "Up to 10 Million",
+        "Option 2": "Up to 50 Million",
+        "Option 3": "Up to 30 Million",
+        "Option 4": "No limit",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the frequency of KYC review and update of High Risk account?",
+        "Option 1": "Fortnight",
+        "Option 2": "Monthly",
+        "Option 3": "Yearly",
+        "Option 4": "Half yearly",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "The implementation of KYC in banks primarily addresses which of the following risks:\n",
+        "Option 1": "Legal Risk",
+        "Option 2": "Compliance Risk",
+        "Option 3": "Money Laundering Risk",
+        "Option 4": "Market Risk",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Purchasing and then selling an investment option is an example of which stage of money laundering operation?",
+        "Option 1": "Integration",
+        "Option 2": "Placement",
+        "Option 3": "Layering",
+        "Option 4": "None of them",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Nepal is a member of which international agency as mentioned below:",
+        "Option 1": "Financial Action Task Force(FATF)",
+        "Option 2": "Asia Pacific Group(APG)",
+        "Option 3": "Financial Advisory Task Force",
+        "Option 4": "Egmont Group",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "As per directive issued by NRB, a blacklisted individual/entity cannot open a bank account. In which directive such provision has been made.",
+        "Option 1": "Directive no 19",
+        "Option 2": "Directive no 12",
+        "Option 3": "Directive no 6",
+        "Option 4": "Directive no 21",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the maximum penalty amount for not performing ECDD and not updating KYC information of customer in effective way?",
+        "Option 1": "Up to 10 Million",
+        "Option 2": "Up to 50 Million",
+        "Option 3": "Up to 30 Million",
+        "Option 4": "Up to 5 Million",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of the following entity does not falls on High Risk as per AML policy of the Bank?",
+        "Option 1": "Savings and Co-operatives",
+        "Option 2": "National level NGO, INGOs",
+        "Option 3": "Petro Dealers",
+        "Option 4": "Embassies/Consulates",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "When suspicious transactions are detected, STR/SAR should be reported to the Financial Information ?",
+        "Option 1": "After 3 days",
+        "Option 2": "Within 3 days",
+        "Option 3": "On 3rd day ",
+        "Option 4": "Within a week.",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the purpose of performing ECDD ?",
+        "Option 1": "To have greater level of scrutiny of  customer and highlights risks that cannot be detected by normal due diligence. ",
+        "Option 2": "To determine whether a customer\u2019s source of wealth or funds are legitimately derived, or\nintended for legitimate use.  ",
+        "Option 3": "To protect Bank and financial institutions from financial crime.",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "When should Bank and financial institutions condcut ECDD of clients?",
+        "Option 1": "At the time of client onboarding based on customer's KYC ",
+        "Option 2": "Annually within 365 days of last ECDD date of high risk customers",
+        "Option 3": "When customer\u2019s activity or behavior/transactions are found suspicious.",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which category of customers falls under ECDD?\n",
+        "Option 1": "High-risk customers only",
+        "Option 2": "Customers who fall under CDD criteria ",
+        "Option 3": "Moderate-risk customers only",
+        "Option 4": "Any customer which posses risk to the Bank",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Who is Ultimate Beneficial Owner of customer?",
+        "Option 1": "Natural person/s who ultimately own or control a customer and/or\nthe person on whose behalf a transaction is being conducted",
+        "Option 2": "Who visit bank to open account",
+        "Option 3": "Who visit bank for performing banking transaction",
+        "Option 4": "POA holder",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What are STR triggers for Bank and Financial Institutions?",
+        "Option 1": "Huge cash transaction",
+        "Option 2": "Behaviors of the Customer",
+        "Option 3": "Economically irrational transactions",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is the difference between Money Laundering and Terrorist Financing?",
+        "Option 1": "They both involve money or other forms of value",
+        "Option 2": "Money Laundering involves the disguising of fund derived from illegal activity whereas terrorist financing involves the use of legally derived\nmoney to carry out illegal activities.",
+        "Option 3": "Money laundering is carry out for terrorist financing only.",
+        "Option 4": "Both are same ",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Who is responsible for AML/CFT activities in the Bank?",
+        "Option 1": "AML cell",
+        "Option 2": "Branch Manager",
+        "Option 3": "Branch Compliance officer",
+        "Option 4": "Each and every individual who works in the Bank",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Financial Intelligence Unit (FIU) is focal point of Nepal's AML regime and works as as independent unit within NRB, to combat Money Laudering, Terrorism Financing and Proliferation Financing.",
+        "Option 1": true,
+        "Option 2": false,
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "In which filed of CBS we need to mentioned KYC pending remarks?",
+        "Option 1": "Free text 6 of CRM",
+        "Option 2": "Free text 7 of CRM",
+        "Option 3": "Free text 8 of CRM",
+        "Option 4": "Free text 9 of CRM",
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Depositing cash into an account or several accounts in different locations is an example of which stage of money laundering operation?",
+        "Option 1": "Integration",
+        "Option 2": "Placement",
+        "Option 3": "Layering",
+        "Option 4": "None of them",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Manipulation of Trade Transactions to disguise the illicit origin of funds is specifically termed as  :",
+        "Option 1": "Money Laudering",
+        "Option 2": "Trade Based Money Laudering (TMBL)",
+        "Option 3": "High Risk ",
+        "Option 4": "Moderate Risk",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Using cash to pay for bank drafts, traveler's checks, and other value instruments is  an example of which stage of money laundering operation?",
+        "Option 1": "Integration",
+        "Option 2": "Placement",
+        "Option 3": "Layering",
+        "Option 4": "None of them",
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Which of the following are used as 'techniques' for TMBL?",
+        "Option 1": "Under Invoicing",
+        "Option 2": "Over Invoicing",
+        "Option 3": "Phantom Shipment",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Iran and North Korea are Sanctioned Countries.",
+        "Option 1": true,
+        "Option 2": false,
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Compliance"
+    },
+    {
+        "question": "What is threshold for ultimate benifical owner identification",
+        "Option 1": 0.1,
+        "Option 2": 0.15,
+        "Option 3": 0.2,
+        "Option 4": 0.25,
+        "CorrectAnswer": 2,
+        "Area": "Compliance"
+    },
+    {
+        "question": "Record retention period for Politically Exposed Person(Pep) is ",
+        "Option 1": "5 year",
+        "Option 2": "7 Years",
+        "Option 3": "10 Years ",
+        "Option 4": "15 years",
+        "CorrectAnswer": 3,
+        "Area": "Compliance"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for transfers for employees except members of management committee and technical jobs?",
+        "Option 1": " less than  4 years",
+        "Option 2": "less than 5 years",
+        "Option 3": "less than 6 years",
+        "Option 4": "less than 7 years",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025,what is the Risk Trigger Point for transfers for employees except members of management committee and technical jobs?",
+        "Option 1": "greater than 4 years ",
+        "Option 2": "greater than 5 years ",
+        "Option 3": "greater than 6 years ",
+        "Option 4": "greater than 7 years ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for staff attrition rate for staff upto Senior Officer Level? ",
+        "Option 1": "less than 10 percent",
+        "Option 2": "less than 15 percent",
+        "Option 3": "less than 20 percent",
+        "Option 4": "less than 25 percent",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for staff attrition rate for staff upto Senior Officer Level? ",
+        "Option 1": "greater than 15 percent",
+        "Option 2": "greater than 16 percent",
+        "Option 3": "greater than 17 percent",
+        "Option 4": "greater than 18 percent",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for staff attrition rate for staff at positions Assistant Manager and above? ",
+        "Option 1": "less than 15 percent",
+        "Option 2": "less than 16 percent ",
+        "Option 3": "less than 17 percent ",
+        "Option 4": "less than 18 percent",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for staff attrition rate for staff at positions Assistant Manager and above? ",
+        "Option 1": "greater than 11 percent",
+        "Option 2": "greater than 12 percent ",
+        "Option 3": "greater than 13 percent ",
+        "Option 4": "greater than 14 percent",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for training not provided to staff in areas other than Trade and Credit?",
+        "Option 1": "less than equal to 1 year",
+        "Option 2": "less than equal to 2 years ",
+        "Option 3": "less than equal to 3 years ",
+        "Option 4": "less than eual to 4 years",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for training not provided to staff in areas other than Trade and Credit?",
+        "Option 1": "greater than equal to 16 months",
+        "Option 2": "greater than equal to 17 months ",
+        "Option 3": "greater than equal to 18 months ",
+        "Option 4": "greater than equal to 19 months",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for training not provided to staff in  Trade and Credit?",
+        "Option 1": "less than equal to 1 year",
+        "Option 2": "less than equal to 2 years ",
+        "Option 3": "less than equal to 3 years ",
+        "Option 4": "less than equal to 4 years ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for training not provided to staff in Trade and Credit?",
+        "Option 1": "greater than equal to 8 months ",
+        "Option 2": "greater than equal to 9 months ",
+        "Option 3": "greater than equal to 10 months ",
+        "Option 4": "greater than equal to 11 months",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for providing job description to staff?",
+        "Option 1": "less than 27 days",
+        "Option 2": "less than 28 days ",
+        "Option 3": "less than 29 days",
+        "Option 4": "less than 30 days",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for providing job description to staff?",
+        "Option 1": "greater than 22 days",
+        "Option 2": "greater than 23 days",
+        "Option 3": "greater than 24 days ",
+        "Option 4": "greater than 25 days",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for replacement of headcount?",
+        "Option 1": "less than 3 months ",
+        "Option 2": "less than 4 months ",
+        "Option 3": "less than 5 months ",
+        "Option 4": "less than 6 months ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for replacement of headcount?",
+        "Option 1": "greter than 2 months ",
+        "Option 2": "greater than 3 months ",
+        "Option 3": "greater than 4 months ",
+        "Option 4": "greater than 5 months ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for keeping key post vacant?",
+        "Option 1": "less than 3 months ",
+        "Option 2": "less than 4 months ",
+        "Option 3": "less than 5 months ",
+        "Option 4": "less than 6 months ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for keeping key post vacant?",
+        "Option 1": "greter than 2 months ",
+        "Option 2": "greater than 3 months ",
+        "Option 3": "greater than 4 months ",
+        "Option 4": "greater than 5 months ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the frequency at which internal policies have to be reviewed at Sanima?",
+        "Option 1": " Annually ",
+        "Option 2": "Biannually ",
+        "Option 3": "Triennially ",
+        "Option 4": "Quadrennially",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for internal policy reviews?",
+        "Option 1": "less than 2 months ",
+        "Option 2": "less than 3 months ",
+        "Option 3": "less than 4 months ",
+        "Option 4": "less than 6 months ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for internal policy reviews?",
+        "Option 1": "greater than 1 month ",
+        "Option 2": "greater than 2 months ",
+        "Option 3": "greater than 3 months ",
+        "Option 4": "greater than 4 months ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the frequency at which internal guidelines have to be reviewed at Sanima?",
+        "Option 1": "Annually ",
+        "Option 2": "Biennially ",
+        "Option 3": "Triennially ",
+        "Option 4": "Quadrennially",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for internal guideline reviews?",
+        "Option 1": "less than 2 months ",
+        "Option 2": "less than 3 months ",
+        "Option 3": "less than 4 months ",
+        "Option 4": "less than 6 months ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for internal guidelines reviews?",
+        "Option 1": "greater than 1 month ",
+        "Option 2": "greater than 2 months ",
+        "Option 3": "greater than 3 months ",
+        "Option 4": "greater than 4 months ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the frequency at which Department Operating Instructions (DoI) have to be reviewed at Sanima?",
+        "Option 1": "Annually ",
+        "Option 2": "Biennially ",
+        "Option 3": "Triennially ",
+        "Option 4": "Quadrennially",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for  review of Department Operating Instructions(DoI)?",
+        "Option 1": "less than 2 months ",
+        "Option 2": "less than 3 months ",
+        "Option 3": "less than 4 months ",
+        "Option 4": "less than 6 months ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for review of Department Operating Instructions (DoI)?",
+        "Option 1": "greater than 1 month ",
+        "Option 2": "greater than 2 months ",
+        "Option 3": "greater than 3 months ",
+        "Option 4": "greater than 4 months ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the frequency at which Standard Operating Procedures (SoPs) have to be reviewed at Sanima?",
+        "Option 1": "Annually ",
+        "Option 2": "Biennially ",
+        "Option 3": "Triennially ",
+        "Option 4": "Quadrennially",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for  review of Standard Operating Procedures (SoPs)?",
+        "Option 1": "less than 2 months ",
+        "Option 2": "less than 3 months ",
+        "Option 3": "less than 4 months ",
+        "Option 4": "less than 6 months ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for review of Standard Operating Procedures (SoPs)?",
+        "Option 1": "greater than 1 month ",
+        "Option 2": "greater than 2 months ",
+        "Option 3": "greater than 3 months ",
+        "Option 4": "greater than 4 months ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the frequency at which Internal Departmental Manuals  have to be reviewed at Sanima?",
+        "Option 1": "Annually ",
+        "Option 2": "Biennially ",
+        "Option 3": "Triennially ",
+        "Option 4": "Quadrennially",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for  review of Internal Departmental Manuals?",
+        "Option 1": "less than 2 months ",
+        "Option 2": "less than 3 months ",
+        "Option 3": "less than 4 months ",
+        "Option 4": "less than 6 months ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for review of Internal Departmental Manuals?",
+        "Option 1": "greater than 1 month ",
+        "Option 2": "greater than 2 months ",
+        "Option 3": "greater than 3 months ",
+        "Option 4": "greater than 4 months ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the frequency at which ICAAP has to be reviewed at Sanima?",
+        "Option 1": "Annually ",
+        "Option 2": "Biennially ",
+        "Option 3": "Triennially ",
+        "Option 4": "Quadrennially",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for  review of ICAAP?",
+        "Option 1": "less than 2 months ",
+        "Option 2": "less than 3 months ",
+        "Option 3": "less than 4 months ",
+        "Option 4": "less than 6 months ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for review of ICAAP?",
+        "Option 1": "greater than 1 month ",
+        "Option 2": "greater than 2 months ",
+        "Option 3": "greater than 3 months ",
+        "Option 4": "greater than 4 months ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the frequency at which Product Papers  have to be reviewed at Sanima?",
+        "Option 1": "Annually ",
+        "Option 2": "Biennially ",
+        "Option 3": "Triennially ",
+        "Option 4": "Quadrennially",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for  review of Product Papers?",
+        "Option 1": "less than 2 months ",
+        "Option 2": "less than 3 months ",
+        "Option 3": "less than 4 months ",
+        "Option 4": "less than 6 months ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger point for review of Product Papers?",
+        "Option 1": "greater than 1 month ",
+        "Option 2": "greater than 2 months ",
+        "Option 3": "greater than 3 months ",
+        "Option 4": "greater than 4 months ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the frequency at which regulatory changes are  reviewed in internal department guidelines in  Sanima?",
+        "Option 1": "As and When ",
+        "Option 2": "Monthly Basis",
+        "Option 3": " Quarterly Basis ",
+        "Option 4": "Semi-Annual Basis",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite to reflect regulatory changes in internal department guidelines?",
+        "Option 1": "less than 30 days",
+        "Option 2": "less than 45 days ",
+        "Option 3": "less than 60 days",
+        "Option 4": "less 75 days",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point to reflect regulatory changes in internal department guidelines?",
+        "Option 1": "greater than 15 days",
+        "Option 2": "greater than 20 days ",
+        "Option 3": "greater than 25 days ",
+        "Option 4": "greater than 30 days",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for storage in system utilizaiton?",
+        "Option 1": "less than equal to 75 percent",
+        "Option 2": "less than equal to 80 percent",
+        "Option 3": "less than equal to 85 percent",
+        "Option 4": "less than equal to 90 percent",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for storage in system utilization?",
+        "Option 1": "greater than 75 percent",
+        "Option 2": "greater than 80 percent",
+        "Option 3": "greater than 85 percent",
+        "Option 4": "greater than 90 percent",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for RAM Utilizaition?",
+        "Option 1": "less than equal to 75 percent",
+        "Option 2": "less than equal to 80 percent",
+        "Option 3": "less than equal to 85 percent",
+        "Option 4": "less than equal to 90 percent",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for RAM Utilization?",
+        "Option 1": "greater than 75 percent",
+        "Option 2": "greater than 80 percent",
+        "Option 3": "greater than 85 percent",
+        "Option 4": "greater than 90 percent",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for Internet Service Utilizaiton  ?",
+        "Option 1": "less than equal to 75 percent",
+        "Option 2": "less than equal to 80 percent",
+        "Option 3": "less than equal to 85 percent",
+        "Option 4": "less than equal to 90 percent",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for Internet Service Utilization?",
+        "Option 1": "greater than 75 percent",
+        "Option 2": "greater than 80 percent",
+        "Option 3": "greater than 85 percent",
+        "Option 4": "greater than 90 percent",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for CPU Utilization ?",
+        "Option 1": "less than equal to 75 percent",
+        "Option 2": "less than equal to 80 percent",
+        "Option 3": "less than equal to 85 percent",
+        "Option 4": "less than equal to 90 percent",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for CPU Utilization?",
+        "Option 1": "greater than 75 percent",
+        "Option 2": "greater than 80 percent",
+        "Option 3": "greater than 85 percent",
+        "Option 4": "greater than 90 percent",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for Internet Banking Licenses?",
+        "Option 1": "less than equal to 85 percent ",
+        "Option 2": "less than equal to 90 percent ",
+        "Option 3": "less than equal to 95 percent ",
+        "Option 4": "less than equal to 98 percent",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for Internet Banking Licenses?",
+        "Option 1": "greater than 80 percent ",
+        "Option 2": "greater than 85 percent ",
+        "Option 3": "greater than 90 percent ",
+        "Option 4": "greater than 95 percent",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for Mobile Banking Licenses?",
+        "Option 1": "less than equal to 85 percent ",
+        "Option 2": "less than equal to 90 percent ",
+        "Option 3": "less than equal to 95 percent ",
+        "Option 4": "less than equal to 98 percent",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for Mobile Banking Licenses?",
+        "Option 1": "greater than 80 percent ",
+        "Option 2": "greater than 85 percent ",
+        "Option 3": "greater than 90 percent ",
+        "Option 4": "greater than 95 percent",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for CBS branch licenses? ",
+        "Option 1": "15 days before branch opening date ",
+        "Option 2": "20 days before branch opening date ",
+        "Option 3": "25 days before branch opening date ",
+        "Option 4": "30 days before branch opening date ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for CBS branch licenses?",
+        "Option 1": "4 days from approval days provided by NRB",
+        "Option 2": "5 working days from approval days provided by NRB",
+        "Option 3": "6 working days from approval days provided by NRB",
+        "Option 4": "7 working days from approval days provided by NRB",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for Antivirus licenses? ",
+        "Option 1": "less than equal to 98 percent",
+        "Option 2": "less than equal to 99 percent ",
+        "Option 3": "less than equal to 95 percent ",
+        "Option 4": "less than equal to 96 percent",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for Antivirus licenses?",
+        "Option 1": "greater than 92 percent ",
+        "Option 2": "greater than 93 percent ",
+        "Option 3": "greater than 94 percent ",
+        "Option 4": "greater than 95 percent ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for PAM licenses? ",
+        "Option 1": "less than equal to 98 percent",
+        "Option 2": "less than equal to 99 percent ",
+        "Option 3": "less than equal to 95 percent ",
+        "Option 4": "less than equal to 96 percent",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for PAM licenses?",
+        "Option 1": "greater than 92 percent ",
+        "Option 2": "greater than 95 percent ",
+        "Option 3": "greater than 97 percent ",
+        "Option 4": "greater than 98 percent ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for Fortigate VPN licenses? ",
+        "Option 1": "less than equal to 98 percent",
+        "Option 2": "less than equal to 99 percent ",
+        "Option 3": "less than equal to 95 percent ",
+        "Option 4": "less than equal to 96 percent",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for Fortigate VPN licenses?",
+        "Option 1": "greater than 92 percent ",
+        "Option 2": "greater than 95 percent ",
+        "Option 3": "greater than 97 percent ",
+        "Option 4": "greater than 98 percent ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for Manage Engine licenses? ",
+        "Option 1": "less than equal to 98 percent",
+        "Option 2": "less than equal to 99 percent ",
+        "Option 3": "less than equal to 95 percent ",
+        "Option 4": "less than equal to 96 percent",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for Manage Engine licenses?",
+        "Option 1": "greater than 92 percent ",
+        "Option 2": "greater than 93 percent ",
+        "Option 3": "greater than 94 percent ",
+        "Option 4": "greater than 95 percent ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for Commvault license? ",
+        "Option 1": "less than equal to 98 percent",
+        "Option 2": "less than equal to 99 percent ",
+        "Option 3": "less than equal to 95 percent ",
+        "Option 4": "less than equal to 96 percent",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for Commvault license?",
+        "Option 1": "greater than 92 percent ",
+        "Option 2": "greater than 93 percent ",
+        "Option 3": "greater than 94 percent ",
+        "Option 4": "greater than 95 percent ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for Terminal Security licenses? ",
+        "Option 1": "less than equal to 98 percent",
+        "Option 2": "less than equal to 99 percent ",
+        "Option 3": "less than equal to 95 percent ",
+        "Option 4": "less than equal to 96 percent",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for Terminal Security licenses?",
+        "Option 1": "greater than 92 percent ",
+        "Option 2": "greater than 95 percent ",
+        "Option 3": "greater than 97 percent ",
+        "Option 4": "greater than 98 percent ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for pending KYC updates? ",
+        "Option 1": "less than 3 months ",
+        "Option 2": "less than 4 months",
+        "Option 3": "less than 5 months",
+        "Option 4": "less than 6 months",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk trigger point for pending KYC Updates?",
+        "Option 1": "greater than 3 months",
+        "Option 2": "greater than 4 months",
+        "Option 3": "greater than 5 months",
+        "Option 4": "greater than 6 months",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for account opening of sanctioned parties? ",
+        "Option 1": " In case by case basis",
+        "Option 2": "No appetite ",
+        "Option 3": "Leeway of 10 account yearly ",
+        "Option 4": "Allowed for national interest",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for trade finance transaction with  sanctioned parties? ",
+        "Option 1": " In case by case basis",
+        "Option 2": "Threshold of a maximum of 10 transaction per year",
+        "Option 3": "Allowed for domestic transactions",
+        "Option 4": "No appetite ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for trade finance transaction with  sanctioned countries? ",
+        "Option 1": " In case by case basis",
+        "Option 2": "Threshold of a maximum of 5 transaction per year",
+        "Option 3": "No appetite ",
+        "Option 4": "Allowed in INR",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for  annual losses arising due to operational issues/incidents? ",
+        "Option 1": "less than 12 million ",
+        "Option 2": "less than 11 million ",
+        "Option 3": "less than 10 million ",
+        "Option 4": "less than 9 million",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger Point for  annual losses arising due to operational issues/incidents? ",
+        "Option 1": "greater than 7 million ",
+        "Option 2": "greater than 8 million ",
+        "Option 3": "greater than 9 million ",
+        "Option 4": "greater than 10 million ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for  customer grievance handling? ",
+        "Option 1": "less than 5 working days",
+        "Option 2": "less than 6 working days",
+        "Option 3": "less than 7 working days",
+        "Option 4": "less than 8 working days",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger Point for  customer grievance handling? ",
+        "Option 1": "greatert than 5 working days",
+        "Option 2": "greater than 6 working days ",
+        "Option 3": "greater than 7 working days",
+        "Option 4": "greater than 8 working days",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for  customer grievance solution? ",
+        "Option 1": "less than 30 working days",
+        "Option 2": "less than 25 working days ",
+        "Option 3": "less than 20 working days",
+        "Option 4": "less than 15 working days",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger Point for  customer grievance solution? ",
+        "Option 1": "greater than 10 working days",
+        "Option 2": "greater than 15 working days ",
+        "Option 3": "greater than 20 working days",
+        "Option 4": "greater than 15 working days",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for  adverse media coverage in market due to unfair process or event ? ",
+        "Option 1": " In case by case basis",
+        "Option 2": "Threshold of a maximum of 5 cases per year",
+        "Option 3": "No appetite ",
+        "Option 4": "Allowed due to freedom of speech",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for leakage of customers private data/information publicly  ? ",
+        "Option 1": " In case by case basis",
+        "Option 2": "No appetite ",
+        "Option 3": "Allowed by ethical hackers ",
+        "Option 4": " Not categorized as risk",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Appetite for  employee satisfaciton? ",
+        "Option 1": "greater than equal to 95 percent ",
+        "Option 2": "greater than equal to 90 percent ",
+        "Option 3": "greater than equal to 85 percent ",
+        "Option 4": "greater than equal to 80 percent ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "According to the Risk Appetite Statement, 2025, what is the Risk Trigger Point for  employee satisfaction? ",
+        "Option 1": "less than  95 percent",
+        "Option 2": "less than 90 percent ",
+        "Option 3": "less than 85 percent ",
+        "Option 4": "less than 80 percent ",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the frequency at which the Risk Appetite Statement has to be reviewed? ",
+        "Option 1": "every year ",
+        "Option 2": "every 2 years ",
+        "Option 3": "every time CEO is changed",
+        "Option 4": "every time CRO is changed",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": " \nHazard is defined as:",
+        "Option 1": " A condition with the potential to cause personal injury or death, property damage,or mission degradation ",
+        "Option 2": " A condition with the potential to cause personal financial loss or property damage or mission degradation ",
+        "Option 3": " A condition with the potential to cause personal injury or death or mission completion ",
+        "Option 4": "A condition with the potential to cause property damage or mission degradation, or a revenue tax increase",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "An expression of possible loss in terms of severity and probability is a definition of: ",
+        "Option 1": " Hazard ",
+        "Option 2": " Probability ",
+        "Option 3": "Severity ",
+        "Option 4": " Risk ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Operational Risk Management Process includes the identification of risks, Assessing risks, Making risk decisions, Implement controls, and",
+        "Option 1": " Take action ",
+        "Option 2": " Re-assessing the process",
+        "Option 3": " Supervise ",
+        "Option 4": "Both  Option A and Option B",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which amongst the following is true about Operations Risk Management ",
+        "Option 1": " Is a decision making tool ",
+        "Option 2": " Increases ability to make informed decisions ",
+        "Option 3": " Reduced risks to acceptable levels ",
+        "Option 4": " All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Causes of operations risk from a banking perspective include all the following except:",
+        "Option 1": " New Technology",
+        "Option 2": "Change",
+        "Option 3": " Environmental Influences ",
+        "Option 4": "Chemical Breakdown",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": " \nThe four Operations Risk Management Principals are - 1. Accept risk when the benefits outweigh the cost 2. Accept no unnecessary risk 3. Anticipate and manage risk by planning and",
+        "Option 1": " Make risk decisions at the right level ",
+        "Option 2": " Make risk decisions right away",
+        "Option 3": "Make no decisions until after talking it over ",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "The document used to record all known risks is known as; ",
+        "Option 1": " Risk Log ",
+        "Option 2": " Risk List ",
+        "Option 3": "Risk Manager ",
+        "Option 4": " Risk Register ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the right time to carry of risk identification?",
+        "Option 1": " At the very start of the project. ",
+        "Option 2": " In the project planning phase",
+        "Option 3": " During the whole life time of a project ",
+        "Option 4": " At the end of a project ",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Who should be involved in the risk management of a project?",
+        "Option 1": "As many stakeholders as possible",
+        "Option 2": " Project team members only ",
+        "Option 3": " Senior Project Managers ",
+        "Option 4": " Everyone Except the Client ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the normal best course of action if you notice a probable risk event as occurring next week from the records of the risk register?",
+        "Option 1": " You assume all concerned have access to the risk register and expect things to sort out on its own. ",
+        "Option 2": "You contact and remind the relevant and responsible person of the anticipated risk.",
+        "Option 3": "You put it in your diary to keep an eye out for it next week",
+        "Option 4": "You call the CEO and inform them.",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "There is a relevant  risk management theory to operations risk management that a run of 1,000 similar occurrences is more accurate than one based upon 100 occurrences, what is this theory called?",
+        "Option 1": " First Law of Probability",
+        "Option 2": " First Law of Prediction ",
+        "Option 3": " Law of large numbers ",
+        "Option 4": " Law of Risk Management ",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is assessing risks in terms of probability and magnitude of impact called?",
+        "Option 1": " Risk Assessment ",
+        "Option 2": " Risk Identificaiton ",
+        "Option 3": " Risk Avoidance ",
+        "Option 4": " Risk Management ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the process for determining the types of risks to which a bank is exposed called?",
+        "Option 1": " Risk Assumption ",
+        "Option 2": " Risk Transference ",
+        "Option 3": " Risk Identificaition ",
+        "Option 4": " Risk Mitigation ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Losses arising due to a operaiton risk exposure assured is known as?",
+        "Option 1": " Risk Reduction ",
+        "Option 2": " Risk Financing ",
+        "Option 3": " Risk Retention ",
+        "Option 4": "Risk Sharing ",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "An alternative approach to the use of a check list is?",
+        "Option 1": " Threat Analysis ",
+        "Option 2": " Event Analysis ",
+        "Option 3": " Operability Study ",
+        "Option 4": " Minimum Level Analysis",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "The measures aimed at avoiding,eliminating or reducing the chances of loss production is covered by ______________",
+        "Option 1": "Risk Control ",
+        "Option 2": "Risk Retention ",
+        "Option 3": "Risk Avoidance ",
+        "Option 4": " Risk Financing ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "The success of whole process of risk management depends on its, ",
+        "Option 1": " Identification ",
+        "Option 2": "Risk Analysis ",
+        "Option 3": " Assessment of Risk ",
+        "Option 4": "Evaluation of Risk ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "The installation of heat or smoke activated sprinkler systems that are designed to minimize fire damage in the outbreak of a fire is an example of ______________.",
+        "Option 1": " Loss Prevention ",
+        "Option 2": " Loss reduction ",
+        "Option 3": " Hedging ",
+        "Option 4": "Insurance ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "The principle of indemnity is applicable to ______________ only.",
+        "Option 1": "Life Insurance ",
+        "Option 2": "Personal Accident Insurance ",
+        "Option 3": " Proximate Cause ",
+        "Option 4": " Property Insurance ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which of the following is the last step in operations risk management? ",
+        "Option 1": " Insurance ",
+        "Option 2": " Review ",
+        "Option 3": "Risk Evaluation ",
+        "Option 4": " Loss Prevention ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Risk retention means ______________",
+        "Option 1": " Saving money to pay for losses ",
+        "Option 2": "Accepting and agreeing to finance the loss oneself",
+        "Option 3": "Not taking up any activity which is risky",
+        "Option 4": " Insuring the risk ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Insurance is a risk management technique involving",
+        "Option 1": "Risk Retention ",
+        "Option 2": "Risk Avoidance ",
+        "Option 3": " Loss Control ",
+        "Option 4": " Risk Transfer ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "The principles of indemnity do not apply to ______________.",
+        "Option 1": "Burglary Insurance ",
+        "Option 2": "Fire Insurance ",
+        "Option 3": " Marine Insurance ",
+        "Option 4": " Life and Personal Accident Insurance ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "The expected value of losses varies directly with the _________________",
+        "Option 1": "Time Period ",
+        "Option 2": " Financial Period ",
+        "Option 3": "Fixed Period ",
+        "Option 4": "Fluctuating Period ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Personnel risk in a firm depends upon the ability integrity and enthusiasm of ______________.",
+        "Option 1": "Creditors ",
+        "Option 2": "Debtors ",
+        "Option 3": "Government ",
+        "Option 4": " Management and Employees ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "The cost of uncertainty that remains once the firm has selected and implemented loss control loss financing and internal risk reduction is called ______________.",
+        "Option 1": " Cost of Residual Uncertainty ",
+        "Option 2": "Cost of Expected Losses",
+        "Option 3": " Cost of Price Change ",
+        "Option 4": " Cost of Loss Control ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Fire insurance can be taken in respect of ______________",
+        "Option 1": " Movable Property only",
+        "Option 2": "Immovable property only ",
+        "Option 3": " both movable and immovable property ",
+        "Option 4": "persons only ",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "The System that brings together the operative causes of perils is ______________",
+        "Option 1": " Risk Evaluation ",
+        "Option 2": " Safety Audit ",
+        "Option 3": " Risk Financing ",
+        "Option 4": "Fault Tree Analysis",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "A sudden demand for notes and coins by depositors is known as;",
+        "Option 1": " Payment Risk ",
+        "Option 2": "B) Asset Risk ",
+        "Option 3": "Currency Risk ",
+        "Option 4": "Liquidity Risk ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Organizations use __________ in conjunction with work breakdown structures to help management teams identify and eventually analyze risk.",
+        "Option 1": " Risk Breakdown Structures ",
+        "Option 2": "Contingency Breakdown Structures ",
+        "Option 3": " Scenario Analysis",
+        "Option 4": " Risk Assessment",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which of the following is\u00a0NOT\u00a0involved in risk control?",
+        "Option 1": " Executing the risk Response Strategy ",
+        "Option 2": " Initiating Contigency Plans ",
+        "Option 3": " Establishing Contingency Funds ",
+        "Option 4": "Remaining Vigilant for new risks",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Payments credited to the wrong account\u201d is an example of which Risk?",
+        "Option 1": "Credit Risk ",
+        "Option 2": "Operational Risk ",
+        "Option 3": "Market Risk ",
+        "Option 4": "Liquidity Risk ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "When a bank\u2019s image and public standing is in doubt and leads to the public\u2019s lossof confidence in a bank, it is called as",
+        "Option 1": "Reputational Risk ",
+        "Option 2": "Moral Hazard ",
+        "Option 3": "Market Risk ",
+        "Option 4": "Liquidity Risk ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which of the following method reduces the chance of loss to zero?",
+        "Option 1": "Risk Transferring ",
+        "Option 2": "Risk Avoidance ",
+        "Option 3": "Risk Retention ",
+        "Option 4": "Risk reduction ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "The risk where  assets are sold at low prices because of sudden surge in withdrawals is related to,",
+        "Option 1": "Payment Risk ",
+        "Option 2": "Liquidity Risk ",
+        "Option 3": "Income Risk ",
+        "Option 4": "Balance Risk ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "There is a possibility that  depositor may withdraw the deposit prematurely. Due to this, the bank is exposed to:",
+        "Option 1": "Reinvestment Risk ",
+        "Option 2": "Embedded Option Risk ",
+        "Option 3": "Basis Risk ",
+        "Option 4": "Gap or Mismatch ",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the primary objective of Hazard Identificaiton and risk assessment?",
+        "Option 1": "To eliminate all workplace hazards ",
+        "Option 2": "To prioritize safety training programs",
+        "Option 3": "To identify hazards and control associated risks",
+        "Option 4": "To comply with insurance requirements ",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of the following is considered a hazard in the workplace? ",
+        "Option 1": "A poorly maintained lift",
+        "Option 2": "Loud noise levels ",
+        "Option 3": "Slippery floors ",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the first step in physical risk assessment process?",
+        "Option 1": "Implementing Control Measures ",
+        "Option 2": "Evaluating the Risk Level ",
+        "Option 3": "Identifying Potential Hazards ",
+        "Option 4": "Reviewing workplace safety policies ",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What does the term residual risk refer to?",
+        "Option 1": "The risk after control measures are applied ",
+        "Option 2": "The initial risk before assessment",
+        "Option 3": "The risk that cannot be identified",
+        "Option 4": "The risk associated with low priority tasks",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the role of the risk matrix in risk assessment?",
+        "Option 1": "To eliminate hazards ",
+        "Option 2": "To prioritize risk based on likelihood and severity",
+        "Option 3": "To implement training programs",
+        "Option 4": "To identify all hazards",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which risk level indicates the requirement for immediate action?",
+        "Option 1": "Low Risk ",
+        "Option 2": "Medium Risk ",
+        "Option 3": "High Risk ",
+        "Option 4": "Negligible Risk ",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the final step in the risk assessment process?",
+        "Option 1": "Documenting findings and recommendations ",
+        "Option 2": "Conducting a follow up inspection ",
+        "Option 3": "Reviewing employee compliance ",
+        "Option 4": "Evaluating new hires ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the financial loss criteria for raising High Risk Incident Report?",
+        "Option 1": "exceeding 10 lakh ",
+        "Option 2": "exceeding 8 lakh ",
+        "Option 3": "exceeding  5 lakh ",
+        "Option 4": "exceeding 3 lakh ",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the financial gain criteria for raising High Risk Incident Report?",
+        "Option 1": "exceeding 10 lakh ",
+        "Option 2": "exceeding 8 lakh ",
+        "Option 3": "exceeding  5 lakh ",
+        "Option 4": "exceeding 3 lakh ",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these does not entail the raising of a High Risk Incident Report?",
+        "Option 1": "serious media coverage ",
+        "Option 2": "limited reputation loss",
+        "Option 3": "Penalties paid to regualtor",
+        "Option 4": "Major fraud and bribery",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report should be raised for circumstances of severe damange to branch property because of which the bank is not able to function? ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk rescalation report must be raised for circumstance of serious compliance breach  concerning AML CFT and sanctions related issue? ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report should be raised for an event of system breakdown that impedes operations for a longer period of time?",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report should be raised for events of major fraud and bribery? ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for event that causes severe irreversible disability to one or more staff/ customers in the Bank's premise.",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for Accident, Fire, Earthquake & other natural disasters that hamper operations.",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised in instances of penalties paid to the regulator?",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for incidences of password sharing?",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for incidences of data compromise?",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": " What kind of risk escalation report must be raised for incidences  of repeated mistakes due to a process failure? ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": " What kind of risk escalation report must be raised for events that results in financial loss of NPR 10,000 to NPR 500,000. ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": " What kind of risk escalation report must be raised for events that results in financial gain of NPR 10,000 to NPR 500,000. ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": " What kind of risk escalation report must be raised for events of cash over  equivalent to or exceeding  NPR 50,000.  ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": " What kind of risk escalation report must be raised for events of cash short  equivalent to or exceeding  NPR 50,000.",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events that have a limited reputational loss to the bank.",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events related to Compliance, AML/CFT, sanction that can have reputational/ financial impact to the Bank in future.",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning damage to the Bank's property but within workable condition. ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning system breakdown with minimal operational impact. ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning injury to customer within bank premises?",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning final loss below NPR 10,000.",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning financial gain below NPR 10,000",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning minor disruptions or losses, but these effects are generally not substantial",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning  Internal policy compliance issue with no impact to business",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning Internal policy compliance issue with no impact on reputation",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning Procedural lapses with no financial impact but could have been the case in higher no. of instances",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning no financial impact but could have been the case in higher no. of instances",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events concerning system or an external fact where no financial loss is incurred ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events of repeated complaints from customer?",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What kind of risk escalation report must be raised for events of minor damange to banks property. ",
+        "Option 1": "High Risk Incident Report ",
+        "Option 2": "Medium Risk Incident Report ",
+        "Option 3": "Low Risk Incident Report",
+        "Option 4": "Non of the above",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Who is the highest Risk Escalation Incident reviewing authority in cases of High Risk Incident Reports?",
+        "Option 1": "CRO",
+        "Option 2": "COO",
+        "Option 3": "CEO",
+        "Option 4": "CFO",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Who is the Highest Risk Escalation Incident  reviewing Authority in the case of High Risk Incident Reports raised due to momentary  disruptions due to regular repair, maintenance related issues of CCTV connections?",
+        "Option 1": "CRO",
+        "Option 2": "COO",
+        "Option 3": "CEO",
+        "Option 4": "CFO",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Who is the end reviewing authority for  Risk Escalation for Medium Risk Incident Reports?",
+        "Option 1": "Head Integrated Risk Management",
+        "Option 2": "Head Compliance ",
+        "Option 3": "CRO ",
+        "Option 4": "COO",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Who is the end reviewing authority for   Risk Esclation in the  case of Low Risk Incident Reports? ",
+        "Option 1": "Head Integrated Risk Management",
+        "Option 2": "Head Compliance ",
+        "Option 3": "CRO ",
+        "Option 4": "COO",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the minimum no. of days of CCTV footages that should be avialble as stipulated in NRB regulation at any point of time?",
+        "Option 1": "120 days",
+        "Option 2": "100 days ",
+        "Option 3": " 90 days ",
+        "Option 4": "60 days",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the mandatory  minimum review requirement time for the Operational Risk Management Policy?",
+        "Option 1": "Once every year ",
+        "Option 2": "Once every 2 years ",
+        "Option 3": "No such time span",
+        "Option 4": "Once every 3 years",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the mandatory minimum review requirement time for the Risk Appetite Statement?",
+        "Option 1": "Once every year ",
+        "Option 2": "Once every 2 years ",
+        "Option 3": "No such time span",
+        "Option 4": "Once every 3 years",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the mandatory  minimum review requirement time for Real Time Incident Report and Risk Esclation Process Note/ Guidelines?",
+        "Option 1": "Once every year ",
+        "Option 2": "Once every 2 years ",
+        "Option 3": "No such time span",
+        "Option 4": "Once every 3 years",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these is not a people risk related issue?",
+        "Option 1": "Incompetence ",
+        "Option 2": "Indifference ",
+        "Option 3": "Lack of role clarity ",
+        "Option 4": "Poor Management Information System",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these is a people risk related issue?",
+        "Option 1": "Incompetence ",
+        "Option 2": "Indifference ",
+        "Option 3": "Lack of role clarity ",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these is a system risk related issue?",
+        "Option 1": "Obsolete Technology",
+        "Option 2": "System Disruptions",
+        "Option 3": "Damage to Physical Assets ",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these is not a system risk related issue?",
+        "Option 1": "Unintentional Errors",
+        "Option 2": "Obsolete Technology",
+        "Option 3": "System Disruptions",
+        "Option 4": "Damage to Physical Assets ",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these fit  the definition of external people in 'external people risk' as detailed in the Operational Risk Policy?",
+        "Option 1": "Customers ",
+        "Option 2": "Service Providers ",
+        "Option 3": "Anti Social Elements ",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What results in external people risk?",
+        "Option 1": "Failure to adhere to guidelines ",
+        "Option 2": "High Volume of Business",
+        "Option 3": "Failure to adhere to established standards",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What does system risk refer to?",
+        "Option 1": "Data Outages ",
+        "Option 2": "Hardware Failure ",
+        "Option 3": "Software Failure",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these does not entail System Risk ?",
+        "Option 1": "Process Management",
+        "Option 2": "Inadequate Technology",
+        "Option 3": "Lack of role clarity ",
+        "Option 4": "System Disruptions",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which of the following processes can lead to process risk?",
+        "Option 1": "Absence of Process",
+        "Option 2": "Process Inadequacy",
+        "Option 3": "Lack of adherence to Process ",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What leads to process risk due to the absence of process?",
+        "Option 1": "inconsistent results",
+        "Option 2": "inconsisten customer experience ",
+        "Option 3": "brand recognition",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "How can processes be improved to minimize process risks? ",
+        "Option 1": "Continuous Improvement",
+        "Option 2": "Automation ",
+        "Option 3": "Employee Empowerment",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these relates to the outcome of risk resulting form process risk?",
+        "Option 1": "Vendor Disputes ",
+        "Option 2": "KYC AML Risk ",
+        "Option 3": "Adverse Audit Comments ",
+        "Option 4": "All of the above ",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Is an Earthquake an example of operational risk due to external event?",
+        "Option 1": "Yes ",
+        "Option 2": "No",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Is Vandalism an example of operational risk due to external event?",
+        "Option 1": "Yes ",
+        "Option 2": "No",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Is a contingency plan required to manage the consequences of external events causing operational risk?",
+        "Option 1": "No",
+        "Option 2": "Yes",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Planning can be put into place to minimize the effect of operational risk!",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Legal risk is defined as risk caused by unenforceable contracts?",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Legal risks can cause operational risks.",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Address proofs measure the capacity of a person to enter into a binding contract",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Nationality mesures the capacity of a person to enter into a binding contract.",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Customer identity measures the capacity of a person to enter into a binding contract.",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Source of fund does not indicate legality of financial instrument.",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Validity of financial instrument is not a measure of legality of instrument. ",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Uncomplete Documents does not entail operational risk due to legal issues",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Operational risk due to reputational risk does not lead to financial losses",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Increased operational expenditure is an example of operational risk caused by repuration risk. ",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Lawsuit against the bank does not lead to reputation risk.",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Reputation risk does not lead to loss of revenue. ",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Strategic risk  does not result out of non-business decisions taken by the Senior Management ",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Strategic risk  can result out of business decisions taken by the Senior Management",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Senior Management turnover is a major element of strategic risk.",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Mergers and Acquisitions are a source of strategic risk. ",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Is cleaning dirty money an example of money laundering?",
+        "Option 1": "Yes ",
+        "Option 2": "No",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these officials is not a member of the Operational Risk Management Committee?",
+        "Option 1": "Chief Executive Officer",
+        "Option 2": "Chief Risk Officer",
+        "Option 3": "Chief Operating Officer",
+        "Option 4": "Chief Finance Officer",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the minimum no. of Operational Risk Management Committee meetings to be held at the bank in an annual basis?",
+        "Option 1": 4,
+        "Option 2": 5,
+        "Option 3": 6,
+        "Option 4": 7,
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Who is the coordinator of the Operational Risk Management Committee?",
+        "Option 1": "Chief Executive Officer",
+        "Option 2": "Chief Risk Officer",
+        "Option 3": "Chief Operating Officer",
+        "Option 4": "Chief Finance Officer",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "As per NRB regulations,  what is the minimum no of times Risk Management Committee meetings are to be held within a fiscal year?",
+        "Option 1": 4,
+        "Option 2": 5,
+        "Option 3": 6,
+        "Option 4": 7,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "What is the maximum time duration of gap between two Risk Management Committee meetings prescribed by the NRB?",
+        "Option 1": "60 days",
+        "Option 2": "90 days ",
+        "Option 3": "120 days ",
+        "Option 4": "150 days",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Who can be the coordinator of the Risk Management Committee Meeting?",
+        "Option 1": "Chief Executive Officer",
+        "Option 2": "Chief Risk Officer",
+        "Option 3": "Chief Operating Officer",
+        "Option 4": "Board Director",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Who is the member secretary of the Risk Management Committee?",
+        "Option 1": "Chief Executive Officer",
+        "Option 2": "Chief Risk Officer",
+        "Option 3": "Chief Operating Officer",
+        "Option 4": "Chief Finance Officer",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these are known as the first line of defense in risk terminology?",
+        "Option 1": "Front line staff",
+        "Option 2": "Staff in Risk Functions ",
+        "Option 3": "Staff in Internal Audit Function ",
+        "Option 4": "External regulatory body",
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these are known as the second line of defense in risk terminology?",
+        "Option 1": "Front line staff",
+        "Option 2": "Staff in Risk Functions ",
+        "Option 3": "Staff in Internal Audit Function ",
+        "Option 4": "External regulatory body",
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these are known as the third line of defense in risk terminology?",
+        "Option 1": "Front line staff",
+        "Option 2": "Staff in Risk Functions ",
+        "Option 3": "Staff in Internal Audit Function ",
+        "Option 4": "External regulatory body",
+        "CorrectAnswer": 3,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which one of these are known as the fourth line of defense in risk terminology?",
+        "Option 1": "Front line staff",
+        "Option 2": "Staff in Risk Functions ",
+        "Option 3": "Staff in Internal Audit Function ",
+        "Option 4": "External regulatory body",
+        "CorrectAnswer": 4,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Risk Control Standards are quantitative in nature?",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Business Risk Control Standards are an internal requirement?",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Risk and Control Self-Assessment is in line with operating environment?",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Operational Risk Register is a tool for documenting risk arising due to internal or external events. ",
+        "Option 1": "True ",
+        "Option 2": "False ",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation Risk"
+    },
+    {
+        "question": "Which is  the risk grade to be applied for the institution and its directors that carry out only Construction business ? ",
+        "Option 1": "High",
+        "Option 2": "Medium ",
+        "Option 3": "Low",
+        "Option 4": "Medium Low",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the minimum threshold which requried PAN to open FD in Bank and Financial Instutions?",
+        "Option 1": "2 Million",
+        "Option 2": "4 Million",
+        "Option 3": "5 Million",
+        "Option 4": "0.5 Million",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which department is responsible to release/mark DR restriction for cases of recovery of obligations due to loan charges/fees/commissions etc. ",
+        "Option 1": "CAOU",
+        "Option 2": "CLAD",
+        "Option 3": "Customer Service",
+        "Option 4": "Compliance",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "A quorum for the general meeting of a private company shall be specified in \u2026\u2026",
+        "Option 1": "Memorandum of Association",
+        "Option 2": "Articles of association",
+        "Option 3": "In Notice",
+        "Option 4": "Meeting agenda",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Account conversion is done using\u2026\u2026\u2026\u2026\u2026\u2026.. .menu ",
+        "Option 1": "HTTM",
+        "Option 2": "HACXFSOL",
+        "Option 3": "HACXFRSC",
+        "Option 4": "HXFER",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Account opened by foreign nationals including tourists can be operated by them only till \u2026\u2026\u2026\u2026\u2026\u2026.. .",
+        "Option 1": "Validity of Passport",
+        "Option 2": "Validity of Visa",
+        "Option 3": "Validity of Citizenship",
+        "Option 4": "Validity of Driving License",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "NRN holding foreign passport having NRN card issued by Government of Nepal can  opertate the account till\u2026\u2026\u2026\u2026\u2026.",
+        "Option 1": "Validity of Passport &  Visa",
+        "Option 2": "Validity of NRN association Card",
+        "Option 3": "Validity of NRN Card",
+        "Option 4": "All of them",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which department is imposing restriction of accounts directed by NRB upon requested by compliance? ",
+        "Option 1": "CAOU",
+        "Option 2": "Branch",
+        "Option 3": "Celaring",
+        "Option 4": "Non of them",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which of the following information criteria is mandatory while opening account ?",
+        "Option 1": "Annual Income and or turnover",
+        "Option 2": "Number of Transaction",
+        "Option 3": "NID number",
+        "Option 4": "All of Them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Does Bank require to update KYC of foreign investors shareholding detail as domestic investor while onboarding?",
+        "Option 1": " Yes",
+        "Option 2": " No",
+        "Option 3": " Only for public limited companies",
+        "Option 4": " Only for private limited companies",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "In general ,blacklisted individual and entity cannot open and operate a bank account according to\u2026\u2026.",
+        "Option 1": "NRB Directive no 19",
+        "Option 2": "NRB Directive no 12",
+        "Option 3": "Article of Association",
+        "Option 4": "Account Block and relase bylaw",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "As per NRB directive, account having zero balance and not in operation for more than\u2026. years can be closed by bank and financial institutions",
+        "Option 1": "5 years and after issuing public notice",
+        "Option 2": "10 years",
+        "Option 3": "10 years and after issuing public notice",
+        "Option 4": "5 years",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who is Beneficial Owner/Ultimate beneficial owner ?",
+        "Option 1": "is a natural person who ultimately owns or controls and whose whose behalf a transaction is being conducted.",
+        "Option 2": "is an  artificial person who ultimately owns or controls and whose behalf a transaction is being conducted.",
+        "Option 3": "is a natural and artificial person who ultimately owns or controls and whose behalf a transaction is being conducted.",
+        "Option 4": "All of them",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Branch staff should scan all the required documents for corporate pay and send it to Head offcie via\u2026... ",
+        "Option 1": "CAOU portal",
+        "Option 2": "AOA portal",
+        "Option 3": "CPU portal",
+        "Option 4": "None of them",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Can NRB impose penalties for non-compliance with shareholding disclosure requirements?",
+        "Option 1": " Yes",
+        "Option 2": " No",
+        "Option 3": " Only in cases of fraud",
+        "Option 4": " Only for public limited companies",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "CBS is provided to staffs on holiday only if",
+        "Option 1": "Attendance is done on web",
+        "Option 2": "Attendance is done on biometric",
+        "Option 3": "Attendance is approved a day prior",
+        "Option 4": "All of them",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Chairman and Vice Chairman of Rural Municipality is categorized as",
+        "Option 1": "High Risk Customers",
+        "Option 2": "Medium Risk Customers",
+        "Option 3": "Low Risk Customers",
+        "Option 4": "None of them",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Corporate pay can be enrolled in which currency in our Bank.",
+        "Option 1": "USD",
+        "Option 2": "NPR   ",
+        "Option 3": "INR",
+        "Option 4": "CNY",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who is the product owner of Corporate Pay ?",
+        "Option 1": "Nepal Clearing House Limited ",
+        "Option 2": "Sanima Bank Limited",
+        "Option 3": "Credit Information Bureau",
+        "Option 4": "None of them",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Current and call account shall be dormant when such accounts are inactive for",
+        "Option 1": "3 months",
+        "Option 2": "6 months",
+        "Option 3": "1 Year",
+        "Option 4": "2 years",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Customer having current account involved in media business must be categorized as",
+        "Option 1": "Medium Risk",
+        "Option 2": "High Risk",
+        "Option 3": "Low Risk",
+        "Option 4": "None of them",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Customer having current account involved in National level NGO, INGOs must be categorized as",
+        "Option 1": "Medium Risk",
+        "Option 2": "High Risk",
+        "Option 3": "Low Risk",
+        "Option 4": "None of them",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Customer having current account involved in Retail Wine/Alcohol stores must be categorized as",
+        "Option 1": "Medium Risk",
+        "Option 2": "High Risk",
+        "Option 3": "Low Risk",
+        "Option 4": "None of them",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Natural Person having saving account involved in real state investment must be categorized as",
+        "Option 1": "High Risk",
+        "Option 2": "Medium Risk",
+        "Option 3": "Low Risk",
+        "Option 4": "None of them",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Customer having saving account involved in Retail sale of household electronic and communication equipment including parts must be categorized as",
+        "Option 1": "Medium Risk",
+        "Option 2": "High Risk",
+        "Option 3": "Low Risk",
+        "Option 4": "None of them",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which account type  to be used for the propose of social security allowance ",
+        "Option 1": "Normal Saving Account",
+        "Option 2": " Samajik Surakshya Bachat Khata.",
+        "Option 3": "Remitance IPO account",
+        "Option 4": "Currrent Account",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Document required to open NRN account:\na) NRN ID facilitated by NRN Association & respective person's valid passport.\nb) Valid NRN ID card issued by concerned government authorities & valid passport.\nc) Valid Passport only\nd) Citizenship copy",
+        "Option 1": "both a & b",
+        "Option 2": "Either a or b",
+        "Option 3": "Any of them",
+        "Option 4": "a,b & c",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which of the following documents is required for opening Company account registered in Nepal with 100% foreign ownership?",
+        "Option 1": "Beneficial Owner's information",
+        "Option 2": " FDI approval from department of industry (DOI)",
+        "Option 3": "Power of Attorney",
+        "Option 4": "All of these",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who provides operating license for pharmaceuticals company to produced medicine?",
+        "Option 1": " Department of Drug Administration (DD)",
+        "Option 2": " Department of Ayurveda",
+        "Option 3": " Local government",
+        "Option 4": " Department of health services",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Full form of PEP is _____________________ .",
+        "Option 1": "Politically Exposed Person",
+        "Option 2": "Politically Experienced Person",
+        "Option 3": "Politically Elected Person",
+        "Option 4": "Politically Exposed People",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "How long Bank must keep record of STR as per AML Act?",
+        "Option 1": " 1 year",
+        "Option 2": " 3 years",
+        "Option 3": " 5 years",
+        "Option 4": " 10 years",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "How many accounts of one house family are required in minimum to open family super saving account.",
+        "Option 1": 2,
+        "Option 2": 3,
+        "Option 3": 4,
+        "Option 4": "No such mandatory requirement",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "How much tax in interest will be applied for individual saving account?",
+        "Option 1": "5 percentage",
+        "Option 2": "15 percentage",
+        "Option 3": "6 percentage",
+        "Option 4": "25 percentage",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "If the customer is categorized in high risk category, Who is the approver for onbarding  ?",
+        "Option 1": "H-CAOU ",
+        "Option 2": "HOC ",
+        "Option 3": "HOC and above",
+        "Option 4": "CDO",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Illiterate customer can open joint account \u2026..",
+        "Option 1": " With anyone, It doesn't matter if someone is literate or not.",
+        "Option 2": " With literate customer only",
+        "Option 3": " With literate customer under one house family member only",
+        "Option 4": " Can not open joint account",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "In case of cooperatives\u00a0 the associated person ( staff, member, signatory or director of the cooperative) are categorized on which risk rating? ",
+        "Option 1": "High",
+        "Option 2": "Medium ",
+        "Option 3": "Low",
+        "Option 4": "No such mandatory requirement",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "In case of saving account, an account is categorized as dormant where ____________",
+        "Option 1": "there is no customer-induced debit transaction for one year ",
+        "Option 2": "there is no customer-induced  transaction for one year",
+        "Option 3": "there is no customer-induced  debit transaction for a continuous period of 3 years",
+        "Option 4": "there is no customer-induced transaction for a continuous period of 3 years",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "In the context of risk grading, what is the full form of RMF?",
+        "Option 1": "Risk Matrix form",
+        "Option 2": "Risk Management Form",
+        "Option 3": "Risk Management Framework",
+        "Option 4": "Risk Mitigation Form",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Can we open Account without NID as per NRB Directives?",
+        "Option 1": "Yes",
+        "Option 2": "No",
+        "Option 3": NaN,
+        "Option 4": "No such  requirement",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Individual having Nepali passport and\u00a0 NRN card whose account has been activated using VIDEO KYC is categorized as \u2026\u2026\u2026\u2026\u2026\u2026\u2026. Risk.",
+        "Option 1": "Low",
+        "Option 2": "Medium ",
+        "Option 3": "High",
+        "Option 4": "Not required",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "PAN card is required for opening Individual Fixed deposit account  having deposit more than\u2026\u2026\u2026\u2026\u2026 ",
+        "Option 1": " 0.5 Million ",
+        "Option 2": " 5 Million ",
+        "Option 3": " 1 Million ",
+        "Option 4": "None of these",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "ITRS Guidelines1 (2022) have been developed with the aim of capturing international transactions with additional details. What is the full form of ITRS?",
+        "Option 1": " Internal transaction reporting system",
+        "Option 2": " International transaction reporting system",
+        "Option 3": " Intact transaction report syatem",
+        "Option 4": " Instituitional transaction reporting system",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Lien mark of fixed deposit of insurance company can be done on request of  customer and\u2026...",
+        "Option 1": "Rastriya Beema Sansthan ",
+        "Option 2": "Nepal Insurance Authority ",
+        "Option 3": "Nepal Insurance Company Ltd ",
+        "Option 4": "None of them",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Minor Account is converted into Major in presence of ",
+        "Option 1": "Parents/guardians",
+        "Option 2": "Parents/guardians and minor",
+        "Option 3": "Minor",
+        "Option 4": "All of them",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "NID card is mandatory  to opend accout after\u2026\u2026",
+        "Option 1": "1 Poush, 2082",
+        "Option 2": "1 Magh , 2082",
+        "Option 3": "1 Baishak  2082",
+        "Option 4": " 1 Ashwin 2082 ",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Review and update of high risk customers must be done on_________________",
+        "Option 1": "Yearly Basis",
+        "Option 2": "Every Six Months",
+        "Option 3": "Every Three Years",
+        "Option 4": "Every Five Years",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who can operates Corporate Pay App  in a Company? can only be operated by the signature holder ",
+        "Option 1": "Only by authorised signature holder",
+        "Option 2": "Person appointed by Company via board minute",
+        "Option 3": "Accountant of The Company",
+        "Option 4": "All of them",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "The document that defines the relationship between the partners in a partnership firm is:",
+        "Option 1": " Share Certificate",
+        "Option 2": " Partnership Deed",
+        "Option 3": " MOA and AOA",
+        "Option 4": " Certificate of tax exemption",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "The implementation of KYC in banks, primarily relates with\n",
+        "Option 1": "Legal Risk",
+        "Option 2": "Environmental Risk",
+        "Option 3": "Money Laundering Risk",
+        "Option 4": "Market Risk",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Is it mandatory to take photo vai WEBCAM  to open account of walking customers  ?",
+        "Option 1": "YES ",
+        "Option 2": "NO ",
+        "Option 3": "Can waived by BM",
+        "Option 4": "None of these",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "What are the documents required while conducting VKYC of customer?. \na) Original MRP Passport,\nb) Student ID card/Resident card/foreign employment document/Arrival stamp on passport\nc) Copy of Passport",
+        "Option 1": "a",
+        "Option 2": "b",
+        "Option 3": "Both a and b \u00a0",
+        "Option 4": "c",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What does API stand for?",
+        "Option 1": "Application Programming Interface",
+        "Option 2": "Automated Payment Integration",
+        "Option 3": "Advanced Payment Infrastructure",
+        "Option 4": "Accounting and Payment Integration",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which menu is used to Freeze  an account?",
+        "Option 1": "HAFSM",
+        "Option 2": "HAPSM",
+        "Option 3": "HASSM",
+        "Option 4": "HAFSM",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which menu is used to inquire lien marked in an account?",
+        "Option 1": "HACM",
+        "Option 2": "HCUALI",
+        "Option 3": "HACMLA",
+        "Option 4": "None of the options",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is scheme type for Call Account ?",
+        "Option 1": "ODA",
+        "Option 2": "TDA",
+        "Option 3": "CAA",
+        "Option 4": "SBA",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the full form of AOA ?",
+        "Option 1": "Account Opening Application ",
+        "Option 2": "Account Opening Portal",
+        "Option 3": "Account Opening API",
+        "Option 4": "Account Opening Automated",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the full form of CDD?",
+        "Option 1": "Customer demand diligent",
+        "Option 2": "Consumer due document",
+        "Option 3": "Customer Double Dilligence",
+        "Option 4": "Customer due diligence",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the minimum shareholding percentage that requires disclosure under KYC for corporate accounts?",
+        "Option 1": 0.05,
+        "Option 2": 0.1,
+        "Option 3": 0.15,
+        "Option 4": 0.2,
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What kind of deposit is allowed in Sanima remittance- IPO account.",
+        "Option 1": "No such restriction",
+        "Option 2": "Only remittance from official remittance channel",
+        "Option 3": "all deposit except cash allowed",
+        "Option 4": "If the source is bank transfer within nepal",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which code to be used to dial to obtained details of NCell moblile user ?",
+        "Option 1": "*9222#",
+        "Option 2": "*1455#",
+        "Option 3": "*9220#",
+        "Option 4": "*9966#",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which code to be used to dial to obtained details of NTC moblile user ?",
+        "Option 1": "*400#",
+        "Option 2": "*1415#",
+        "Option 3": "*922#",
+        "Option 4": "*455#",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which department is responsible to apply freeze and unfreeze as per instruction from NRB and government bodies in Core Banking Software (CBS) ?",
+        "Option 1": "Call Centre unit ",
+        "Option 2": "Customer Service",
+        "Option 3": "CAOU ",
+        "Option 4": "Compliance",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which document is mandatory for opening a corporate account as per NRB's Directive 19?",
+        "Option 1": "National Identity Card",
+        "Option 2": "Company Registration Certificate",
+        "Option 3": "Tax Clearance Certificate",
+        "Option 4": "All of the above",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which document is required to verify the authorized user for corporate pay enrollment?",
+        "Option 1": " Corporate pay enrollment form",
+        "Option 2": " Latest share log",
+        "Option 3": " Minute of Board meeting",
+        "Option 4": " KYC of corporate pay users",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which documents are required to open Ban upabhokta samitee ?\na) Registeration\nb) PAN\nc) Audiit Report & Tax Clearance\nd) Bidhan\ne) Completely and correctly filled AOF\nf) KYC & Citizenship of all Board/Samitee members\ng) Minute for opening account in Sanima along with signatory as per Bidhan",
+        "Option 1": "a to f",
+        "Option 2": "a, b, c, e, f & g",
+        "Option 3": "a, b, e, f & g",
+        "Option 4": "a to g",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which entity is responsible for maintaining the blacklist of defaulters in Nepal?",
+        "Option 1": " Nepal Rastra Bank",
+        "Option 2": " Credit Information Bureau (CI",
+        "Option 3": " Ministry of Finance",
+        "Option 4": " Securities Board of Nepal",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which of the following entity falls on High Risk?",
+        "Option 1": "Savings and Credit Cooperatives",
+        "Option 2": "National level NGO, INGOs",
+        "Option 3": "Embassies-Consulates",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who are not eligible to open FCY account?\na. NRN\nb. Indian citizen\nc. Foreigner other than indian\nd. Foreign Embassy\ne. Diplomatic mission\n",
+        "Option 1": "a",
+        "Option 2": "b",
+        "Option 3": "c",
+        "Option 4": "d and e",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who can approve blacklisting of customers not having loan facilities ?",
+        "Option 1": "H-CAOU ",
+        "Option 2": "HOC ",
+        "Option 3": "BM ",
+        "Option 4": "CDO",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the full form of BIC ?",
+        "Option 1": "Beneficiary Institution Code",
+        "Option 2": "Bank Identifier Code",
+        "Option 3": "Beneficiary Identifier Code",
+        "Option 4": "Beneficiary Indian Code",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the charge amount for reason based  cheque return in clearing?",
+        "Option 1": "NPR 100",
+        "Option 2": "NPR 200",
+        "Option 3": "NPR 10",
+        "Option 4": "NPR 20",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the charge amount of  late presentment  in clearing?",
+        "Option 1": "NPR 100",
+        "Option 2": "NPR 200",
+        "Option 3": "NPR 10",
+        "Option 4": "NPR 20",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Please choose the correct MENU \u00a0for inquiry of account interest detail in CBS.",
+        "Option 1": "HAITINQ",
+        "Option 2": "HAINTINQ",
+        "Option 3": "HINTTI",
+        "Option 4": "HITCI",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is ITRS code to be mapped for direct and other receipts and payments incurred by individual travelling abroad for medical treatment  ?",
+        "Option 1": 2504,
+        "Option 2": 1501,
+        "Option 3": 1720,
+        "Option 4": 1255,
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is ITRS code for workers remittance?",
+        "Option 1": 1520,
+        "Option 2": 1510,
+        "Option 3": 1711,
+        "Option 4": 1720,
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "ITRS Code of receipts and payments related to travel expense made by person travelling on business visits, government employees on official travel is\u2026.",
+        "Option 1": 1520,
+        "Option 2": 1251,
+        "Option 3": 1720,
+        "Option 4": 1711,
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "ITRS Code  of receipts and payments incurred by individual coming or going for abroad study such as tuition fees, lodging, food, clothing is \u2026\u2026..",
+        "Option 1": 2504,
+        "Option 2": 1501,
+        "Option 3": 1720,
+        "Option 4": 1254,
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which documents are required to open Ban upabhokta samitee ?\na) Registration\nb) PAN\nc) Audit Report & Tax Clearance\nd) Bidhan\ne) Completely and correctly filled AOF\nf) KYC & Citizenship of all Board/Samitee members\ng) Minute for opening account in Sanima along with signatory as per Bidhan\nh) Financial by laws",
+        "Option 1": "A to H",
+        "Option 2": "A, B, C, E,F,G ",
+        "Option 3": "A, B, D, E,F,G, H",
+        "Option 4": "A to G",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Deposits other than social security allowance cannot be deposited in Sanima Samajik Surakshya Bachat Khata.",
+        "Option 1": "Yes",
+        "Option 2": "No",
+        "Option 3": "Depends upon the instruction of local level",
+        "Option 4": "Up to 1 lakh can be deposited externally",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Joint FCY account of one house family memebrs can be opened subject to",
+        "Option 1": "One of the joint account holder having FCY income source",
+        "Option 2": "Relationship Certificate",
+        "Option 3": "Both of them",
+        "Option 4": "Not Permitted",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "FCY account can be opened by Nepalese citizen with the remaining FCY non-utilized amount after personal or official visit to foreign country",
+        "Option 1": "Yes",
+        "Option 2": "No",
+        "Option 3": "Can be opened only after approval of NRB",
+        "Option 4": "Cannot open",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Deposit in FCY Cash in account exceeding USD 5000 can be done only if  ",
+        "Option 1": "A. individuals earning Salary in FCY",
+        "Option 2": "B. Individuals that have declared USD of above 5000 at entry point at Nepal Customs",
+        "Option 3": "C. FCY cash from foreigners can be deposited",
+        "Option 4": "B & C",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Mr A  USD account holders of sanima bank can transfer USD fund to Mr B 's  USD acount  maintained in another bank",
+        "Option 1": false,
+        "Option 2": true,
+        "Option 3": "Both of these",
+        "Option 4": "None of these",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Mr. X lives in Kathmandu and has maintained USD and NPR account in Sanima Bank. He wants to withdraw amount debiting his USD account and buy some assets in Kathmandu. In which currency can the customer withdraw cash",
+        "Option 1": "NPR only ",
+        "Option 2": "USD only",
+        "Option 3": "Both NPR or USD",
+        "Option 4": "all of them ",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Except for cases of exemption tax in interest income, which of the parties pay lowest TDS on Interest Earned ?\nA. Individual Person\nB. Non profit Organizations\nC. Life Insurance Companies \nD. Private Limited Company",
+        "Option 1": "A",
+        "Option 2": "C",
+        "Option 3": "B",
+        "Option 4": "A & C",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who is regarded as minor?",
+        "Option 1": "Below the age of 18",
+        "Option 2": "Below the age of 16",
+        "Option 3": "anyone who has minor card",
+        "Option 4": "All of them",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Full form of POA is",
+        "Option 1": "Power of Attorney",
+        "Option 2": "Power of Authority",
+        "Option 3": "Principle of Authority",
+        "Option 4": "Principle of Accountancy",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the menu for closing TD?",
+        "Option 1": "HCAACTD",
+        "Option 2": "HCACC",
+        "Option 3": "HACMTD",
+        "Option 4": "HCLSTD",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Account opened by foreign nationals including tourists can be operated by them only till _________________ ",
+        "Option 1": "Validity of Passport",
+        "Option 2": "Validity of Visa",
+        "Option 3": "Validity of Citizenship",
+        "Option 4": "Validity of Driving License",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who is the approving authority to approve account opening with pending documents in exceptional circumstances?",
+        "Option 1": "Head Deposit Institutional",
+        "Option 2": "Chief Deposit Officer (CDO)",
+        "Option 3": "HOC and above",
+        "Option 4": "Head Deposit Retail ",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Can we open account of shell companies?",
+        "Option 1": "Yes",
+        "Option 2": "No",
+        "Option 3": "Yes with approval of HOC",
+        "Option 4": "Yes with approval of CEO",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Corporate shall have access to the corporatePAY system through : ",
+        "Option 1": "Public Network (corporatepay.connectips.com)",
+        "Option 2": "Private Network (VPN)",
+        "Option 3": "Any of two options",
+        "Option 4": "None of the given options",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the standard digit of account number in our CBS ?",
+        "Option 1": "10 DIGITS",
+        "Option 2": "15 DIGITS",
+        "Option 3": "17 DIGITS",
+        "Option 4": "20 DIGITS",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "As per our operational manual, Who can approve for publishing of 35 days\u2019 notice in newspaper after the notice is vetted by Head Legal or delegates ?",
+        "Option 1": "Cluster Head & Province Head",
+        "Option 2": "Head Operations",
+        "Option 3": "Branch Managers",
+        "Option 4": "Approval not required after vetting by Legal Head",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who is the approving authority for allowing to open   Joint account of illiterate customer with another illiterate customer ?",
+        "Option 1": " Province Head",
+        "Option 2": "HOC or above",
+        "Option 3": "Cluster Head or Above ",
+        "Option 4": "Province Head or above",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "As per the prevailing NRB directive, what is the maximum FCY allowed for import of goods like clothes, cosmetic products, shoes, sandals etc. without Airwaybill-Shipment-Transport Document?",
+        "Option 1": "USD 500",
+        "Option 2": "USD 2500",
+        "Option 3": "USD 5000",
+        "Option 4": "USD 10000",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "How frequently is interest paid on citizen savings bonds?",
+        "Option 1": "Monthly",
+        "Option 2": "Quarterly",
+        "Option 3": "Half-yearly",
+        "Option 4": "Semi-annually",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who can purchase foreign employment savings bonds?",
+        "Option 1": "Any Nepali citizen",
+        "Option 2": "Nepali citizens engaged in foreign employment or returned within 6 months, their families, or non-resident Nepali citizens ",
+        "Option 3": "Only foreign workers",
+        "Option 4": "Only through banks",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which organization is responsible for publishing remittance exchange rates?",
+        "Option 1": "Ministry of Finance",
+        "Option 2": "Nepal Rastra Bank directly",
+        "Option 3": "Commercial banks",
+        "Option 4": "Foreign Exchange Dealers Association of Nepal (FEDAN)",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which regulation is applied for the systematic management of remittance transactions?",
+        "Option 1": "Nepal Rastra Bank Remittance Regulation, 2079",
+        "Option 2": "FDI regulation",
+        "Option 3": "Nepal Rastra Bank Remittance bylaw, 2077",
+        "Option 4": "Ministry of Finance Regulation, 2078",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Customs Payment can be processed through____",
+        "Option 1": "ConnectIPS e-payment Web Application",
+        "Option 2": "CORPORATEPAY",
+        "Option 3": "Bank Central Module",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who can provide the price deviation approval as per price checking guidelines ?",
+        "Option 1": "Branch Manager",
+        "Option 2": "Provience head",
+        "Option 3": "Business Head",
+        "Option 4": "HOC or above",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Approval from Head Operations Country or above  requires for changing international customer to transacting or non-transacting in mobile banking upon recommendation of\u2026\u2026.",
+        "Option 1": "Head of Busines Unit",
+        "Option 2": "RM",
+        "Option 3": "BM",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Transaction password is a____that is used to complete your transaction in connectIPS e-payment.",
+        "Option 1": "4-digit pin ",
+        "Option 2": "5-digit pin ",
+        "Option 3": "6-digit pin ",
+        "Option 4": "8-digit pin ",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "In case of Self Verification in CIPS, customer can make a payment of NPR_____Per transaction",
+        "Option 1": "NPR 200000",
+        "Option 2": "NPR 100000",
+        "Option 3": "NPR 1000000",
+        "Option 4": "NPR 2000000",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Transaction in following currency can be done through E- payment",
+        "Option 1": "INR",
+        "Option 2": "USD",
+        "Option 3": "NPR",
+        "Option 4": "All of them",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who settles the outward clearing cheques ?",
+        "Option 1": "Branch",
+        "Option 2": "Clearing",
+        "Option 3": "CPU",
+        "Option 4": "CAOU",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "We cannot process ____ cheques in clearing",
+        "Option 1": "Post dated",
+        "Option 2": "Stale cheque",
+        "Option 3": "Cheque written in multiple language",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "High value clearing is performed for cheques amounting more than",
+        "Option 1": "200 Million",
+        "Option 2": "100 Million",
+        "Option 3": "300 Million ",
+        "Option 4": "None of them",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Can Thumbprint impression cheques be processed in ECC?",
+        "Option 1": "YES ",
+        "Option 2": "NO",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the Full form of SWIFT ?",
+        "Option 1": "Society for Worldwide Interbank Financial Telecommunication",
+        "Option 2": "Secure Worldwide International Fund Transfer",
+        "Option 3": "Secure Worldwide Interbank Funds Transfer",
+        "Option 4": "Society for World Interbank Financial Transfer",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Where is the Headquarter of SWIFT ?",
+        "Option 1": "Sweden",
+        "Option 2": "Malaysia ",
+        "Option 3": "United State",
+        "Option 4": "Belgium",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the maximum length of BIC/ SWIFT CODE ?",
+        "Option 1": 8,
+        "Option 2": 9,
+        "Option 3": 10,
+        "Option 4": 11,
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who is responsible for creating  SWIFT operator ?",
+        "Option 1": "LSO and RSO",
+        "Option 2": "RSO and Admin",
+        "Option 3": "LSO and Admin",
+        "Option 4": "All of them",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who is responsible to assign the role in operator profile ?",
+        "Option 1": "RMA authorizer",
+        "Option 2": "RSO only",
+        "Option 3": "Security Officers",
+        "Option 4": "SuperAdmin",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "We cant issue LC with draft available with ______________",
+        "Option 1": "Beneficiary",
+        "Option 2": "Applicant",
+        "Option 3": "Both of them",
+        "Option 4": "None of them",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "As per the prevailing NRB directive, how many digit harmonic code must be mentioned on the proforma invoice?",
+        "Option 1": "6 digits",
+        "Option 2": "As quoted in standard customs tariff",
+        "Option 3": "10 digits",
+        "Option 4": "12 digits",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Full form of Incoterm is",
+        "Option 1": "International Commerce Terms",
+        "Option 2": "International Corporate Terminology",
+        "Option 3": "International Commercial Terms",
+        "Option 4": "Indian Commercial Terms",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the limit for import of software from India vide LC?",
+        "Option 1": "USD 10000",
+        "Option 2": "USD 15000",
+        "Option 3": "USD 30000",
+        "Option 4": "Not Permitted",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "While importing software from India via online, advance tax payment receipt must be submitted by importer.",
+        "Option 1": "Yes",
+        "Option 2": "No",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who are eligible for exporting goods to third countries?",
+        "Option 1": "Partnership Firms",
+        "Option 2": "Proprietorship Firms",
+        "Option 3": "Industries",
+        "Option 4": "All of them having export license",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Banks deal with documents and not with ________________________. to which the documents may relate.\n",
+        "Option 1": "Goods",
+        "Option 2": "Service",
+        "Option 3": "Performance",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "In terms of UCP 600, honor means",
+        "Option 1": "to accept draft drawn by beneficiary and pay at maturity, in case of credit available by acceptance",
+        "Option 2": "to incur a deffered payment undertaking and pay at maturity, in case of credit available by deferred payment",
+        "Option 3": "to pay at sight, if credit is available by sight",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Presentation under credit means ___________",
+        "Option 1": "delivery of documents under a credit to issuing bank or nominated bank",
+        "Option 2": "delivery of documents under a credit to advising bank",
+        "Option 3": "delivery of documents under a credit to second advising bank",
+        "Option 4": "delivery of documents under a credit to reimbursing bank",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Full form of DPU is",
+        "Option 1": "Delivered At Place Unpaid",
+        "Option 2": "Delivered at Place Unloaded",
+        "Option 3": "Delivery At Place Unloaded",
+        "Option 4": "Duty At Place Unpaid",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Under CIP,___________.pays for the carriage of goods up to the named place of destination and obtains insurance for the goods in transit.",
+        "Option 1": "Buyer",
+        "Option 2": "Seller",
+        "Option 3": "Nominated Bank",
+        "Option 4": "Shipping Company",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "FAS is short form of incoterms",
+        "Option 1": "Free At Service",
+        "Option 2": "Free At Ship",
+        "Option 3": "Free Alongside Ship",
+        "Option 4": "Free Across Ship",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "FOB is precise incoterms used for transport of goods by road from India to Nepal as per Incoterms rule.",
+        "Option 1": "Yes",
+        "Option 2": "No",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Full of IFSC is",
+        "Option 1": "International Financial System Code",
+        "Option 2": "Indian Financial System Code",
+        "Option 3": "International Finance System Code",
+        "Option 4": "International Fund System Code",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "As per UCP 600, at least one __________ of each document stipulated in the credit must be presented.",
+        "Option 1": "copy",
+        "Option 2": "duplicate",
+        "Option 3": "original",
+        "Option 4": "second original",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Any correction or alteration in the data on bill of lading must be authenticated by______________",
+        "Option 1": "Carrier",
+        "Option 2": "Master (Captain)",
+        "Option 3": "Agent signing B-L",
+        "Option 4": "Carrier, Master (Captain) or their named agents who are identified as an agent of carrier or master (captain)",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "An airway bill must indicate name of the carrier and be signed by",
+        "Option 1": "the owner or a named agent for or on behalf of the owner",
+        "Option 2": "carrier or a named agent for or on behalf of the carrier",
+        "Option 3": "Freight forwarder without indicating the capacity",
+        "Option 4": "Carrier or owner or a named agent for or on behalf of the carrier or owner",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Insurance document is to appear to have been issued and signed by",
+        "Option 1": "Agent",
+        "Option 2": "Insurance company or underwriter or their agent or proxy for or on behalf of named insurance company or named underwriter",
+        "Option 3": "Proxy",
+        "Option 4": "Insurance Company or Underwriter",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "EXIM stands for",
+        "Option 1": "Export Import Code",
+        "Option 2": "Export Import Certification Code",
+        "Option 3": "Export Import Mandatory Code",
+        "Option 4": "Export Import Manifest Code",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "The validity of guarantee issued for Exim should be for minimum for______________________.",
+        "Option 1": "1 year",
+        "Option 2": "3 years",
+        "Option 3": "2 years",
+        "Option 4": "1 fiscal year",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "How many times Nepali Citizen will get exchange facility up to USD 2500 or equivalent for travelling third country via air in a year?",
+        "Option 1": "Once in a year",
+        "Option 2": "Twice in a year",
+        "Option 3": "Thrice in a year",
+        "Option 4": "Each time",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the FCY exchange limit for Nepalese Citizen travelling Europe with foreign employment  ?",
+        "Option 1": "USD 200 or Equivalent",
+        "Option 2": "USD 500 or Equivalent",
+        "Option 3": "USD 1000 or Equivalent",
+        "Option 4": "USD 1500 or Equivalent",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the FCY exchange limit for Nepalese Citizen travelling UAE with foreign employment  ?",
+        "Option 1": "USD 200 or Equivalent",
+        "Option 2": "USD 500 or Equivalent",
+        "Option 3": "USD 1000 or Equivalent",
+        "Option 4": "USD 1500 or Equivalent",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "How much exchange facility can be extended to Nepali Citizen as 'settlement expenses' against immigrant visa?",
+        "Option 1": "Maximum USD 2500 or equivalent",
+        "Option 2": "Maximum USD 10,000 or equivalent",
+        "Option 3": "Maximum USD 5000 or equivalent",
+        "Option 4": "Maximum USD 500 or equivalent",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which of the following is authenticated free format message?",
+        "Option 1": "199",
+        "Option 2": "299",
+        "Option 3": "399",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which message type is used in Swift for customer payment-transfers?",
+        "Option 1": "MT202",
+        "Option 2": "MT700",
+        "Option 3": "MT103",
+        "Option 4": "MT110",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which standard message type is used for sending amendment-correction of MT103?",
+        "Option 1": "MT 111",
+        "Option 2": "MT 195",
+        "Option 3": "MT 199",
+        "Option 4": "MT 999",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which message type is used in Swift forBank to Bank payment-transfers?",
+        "Option 1": "MT202",
+        "Option 2": "MT700",
+        "Option 3": "MT103",
+        "Option 4": "MT110",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is BIC of Nepal Rastra Bank?",
+        "Option 1": "NARBNPKA",
+        "Option 2": "NRBLNPKA",
+        "Option 3": "NICANPKA",
+        "Option 4": "NRBBNPKA",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is BIC of Sanima Bank Limited",
+        "Option 1": "NARBNPKA",
+        "Option 2": "SNAMNPKA",
+        "Option 3": "SANRPT",
+        "Option 4": "SNMANPKA",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Can we send MT 202 in future value date?",
+        "Option 1": "Yes",
+        "Option 2": "No",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "ACU stands for",
+        "Option 1": "Asian Clearing Unit",
+        "Option 2": "Asian Clearing Union",
+        "Option 3": "Asian Countries Union",
+        "Option 4": "Asia Pacific Clearing Union",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the per person FCY exchange limit provided to Travel And Tour Companies on behalf of Nepalese Citizens travelling abroad ?",
+        "Option 1": "USD 500 or Equivalent but within limit of FCY against Passport Facility",
+        "Option 2": "USD 1500 Or Equivalent",
+        "Option 3": "USD 1000 or Equivalent",
+        "Option 4": "USD 1000 or Equivalent but within limit of FCY against Passport Facility",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "While providing exchange facility to Travel and Tour Companies against Travel Package, we need to retain",
+        "Option 1": "Copy of Passport,Visa, Confirmed Air Ticket of Nepalese Traveller",
+        "Option 2": "Copy of Passport and Air Ticket of Foreign Traveller",
+        "Option 3": "Application of Travel-Tour Firm along with Copy of Passport,Visa, Confirmed Air Ticket of Nepalese Traveller",
+        "Option 4": "Application of Travel-Tour Firm along with Copy of Passport,Visa, Confirmed Air Ticket of Nepalese Traveller, Invoice of foreign company operating the tour quoting number of passengers and rate",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "While remitting salary income of foreign nationals except Indian working in Nepal, which documents are required to be obtained form the applicant?",
+        "Option 1": "Application of Employee and Recommendation of Employer",
+        "Option 2": "Application of Employee, Recommendation of Employer, Employees ID card or Appointment Letter",
+        "Option 3": "Application of Employee, Recommendation of Employer, Employees ID card or Appointment Letter, Work Permit, Valid Visa, Tax on salary paid receipt",
+        "Option 4": "Application of Employee, Recommendation of Employer, Employees ID card or Appointment Letter, Work Permit, Valid Visa",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "A Nepalese citizen travelling India can avail INR cash within limit of ",
+        "Option 1": "INR 10000",
+        "Option 2": "INR 25000",
+        "Option 3": "INR 50000",
+        "Option 4": "INR 100000",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which of the following requirement to be complied for issuing APC for export of goods?\n \na. Sales Contract between exporter and importer-Purchase Order or any document evidencing purchase-sales of goods\nb. Proof of payment received in account of exporter via Swift Transfer\nc. Letter of Credit received by exporter\nd. Payment received by exporter vide Debit Card, Credit Card, online transfer\ne. Payment received in cash from tourist for sales of good along with invoice issued by seller, agreement-contract to send in tourists foreign address, copy of passport with visa\nf. Copy of transport documents",
+        "Option 1": "a,c,f",
+        "Option 2": "a,b,c",
+        "Option 3": "a,b,c,f",
+        "Option 4": "a,b,d,e",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "APC must be issued within_________of receiving payment against export-sales of goods.",
+        "Option 1": "1 year",
+        "Option 2": "2 years",
+        "Option 3": "4 months",
+        "Option 4": "6 months",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "APC must be issued only by banks receiving__________favoring the exporter.",
+        "Option 1": "Export order",
+        "Option 2": "Purchase Order",
+        "Option 3": "Letter of credit",
+        "Option 4": "Advance Payment",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "APC  is generally valid for",
+        "Option 1": "1 month",
+        "Option 2": "1 year",
+        "Option 3": "2 years",
+        "Option 4": "3 years",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "While remitting educational fees on request of student for studying abroad, insurance fees in FCY can be remitted to : ",
+        "Option 1": "College/University",
+        "Option 2": "Foreign Insurance Company through their agent registered in Nepal ",
+        "Option 3": "Foreign Insurance Company or their agent as per the recommendation of College/University",
+        "Option 4": "Any of them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Maximum yearly limit of living expenses for studying in  European Countries, if not mentioned in supporting documents shall be:",
+        "Option 1": "USD 4000",
+        "Option 2": "USD 6000",
+        "Option 3": "USD 8000",
+        "Option 4": "USD 10000",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Maximum yearly limit of living expenses for studying in  Pakisthan, if not mentioned in supporting documents shall be:",
+        "Option 1": "USD 2500",
+        "Option 2": "USD 4000",
+        "Option 3": "USD 8000",
+        "Option 4": "USD 10000",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "FCY received for different purposes can be refunded to remitting bank within the limit prescribe by NRB subject to:",
+        "Option 1": "Fund recalled by remitting bank",
+        "Option 2": "Purpose of remittance not fulfilled",
+        "Option 3": "Request received from beneficiary to refund the payment, if already credited in account",
+        "Option 4": "All of them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Eligible FCY exchange for Nepalese citizens visiting abroad for participating in Business promotions, Exhibitions, Trade Fairs etc. against valid passport, visa and application is ",
+        "Option 1": "USD 5000 Or Equivalent",
+        "Option 2": "USD 2500 Or Equivalent",
+        "Option 3": "USD 1500 Or Equivalent",
+        "Option 4": "USD 500 Or Equivalent",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the limit of FCY payment against medical treatment of Nepalese Citizen in foreign countries.?",
+        "Option 1": "USD 5000 or Equivalent",
+        "Option 2": "USD 15000 or Equivalent",
+        "Option 3": "USD 10000 or Equivalent",
+        "Option 4": "USD 25000 or Equivalent",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Payment received in Agency Bank(Nostro) which could not be credited to beneficiary and request to refund received from Agency bank can be refunded within__________days of credit",
+        "Option 1": 30,
+        "Option 2": 60,
+        "Option 3": 90,
+        "Option 4": 120,
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the maximum limit for sending payment for living expense on the basis of Offer letter/I-20/Acceptance Letter/Admission Letter/Confirmation Letter during the period of 6 months?",
+        "Option 1": "10 percent",
+        "Option 2": "20 percent",
+        "Option 3": "30 percent",
+        "Option 4": "50 percent",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the threshold limit for reporting  suspicious transaction ?",
+        "Option 1": "No limit",
+        "Option 2": "Rs.1 Million",
+        "Option 3": "Rs.5 Million",
+        "Option 4": "Rs.10 Million",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "In terms of export payment procedures, APC stands for:",
+        "Option 1": "Accurate Payment Certificate",
+        "Option 2": "Advance Payment Certificate",
+        "Option 3": "Actual Payment Certificate",
+        "Option 4": "Approx Payment Certificate",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Can Nepalese bank provide exchange facilities for investment purpose in India?",
+        "Option 1": "NO",
+        "Option 2": "Yes",
+        "Option 3": "Only for investment in shares",
+        "Option 4": "Only for purchasing residential home",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Foreign Exchange and Money Dealers Association of Nepal (FEDAN) publishes rate for \u2026...?",
+        "Option 1": "All currencies listed as tradable by NRB",
+        "Option 2": " U.S.Dollar only",
+        "Option 3": "Malaysian Ringgit only",
+        "Option 4": " Saudi Arabian Riyal only",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "What are the list of documents that should be provided while applying for export incentive?",
+        "Option 1": "1. Export/import certificate2. invoice 3. Pragyapanpatra 4. Value added Certficate Document",
+        "Option 2": "1. Export/ import certificate 2. Invoice 3. Pragyapanpatra ",
+        "Option 3": "1. Value addition certificate 2. Invoice",
+        "Option 4": "1. Export/ Import Certificate",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "As per Export incentive guideline how is Value addition calculated:",
+        "Option 1": "Export FOB PRICE/FOB PRICE *100",
+        "Option 2": "Export Fob Price-Value Of Foreign Originated Material)/Export Fob Price * 100 ",
+        "Option 3": "Export Goods Price-Import Goods Price ",
+        "Option 4": " Value Of Foreign Originated Material-Export Fob Price/100",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Exchange facility for dependents on dependent visa can be provided ?",
+        "Option 1": "Only for visa and insurance fees only",
+        "Option 2": "Only for tuition fees",
+        "Option 3": "For living expences",
+        "Option 4": "No, not allowed",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who issues No Objection letter ?",
+        "Option 1": "Ministry of Home and Affairs",
+        "Option 2": "Ministry of Finance",
+        "Option 3": "Ministry of  Education ",
+        "Option 4": "Ministry of Foreign Affairs ",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the minimum value addition value required to claim export incentive for export of cement?",
+        "Option 1": 0.2,
+        "Option 2": 0.3,
+        "Option 3": 0.4,
+        "Option 4": 0.5,
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the minimum value addition value required to claim export incentive for export of Carpet?",
+        "Option 1": 0.5,
+        "Option 2": 0.3,
+        "Option 3": 0.2,
+        "Option 4": 0.7,
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Within what timeframe after end of financial year an exporter must apply to claim export incentive offered by the Government of Nepal?",
+        "Option 1": "6 month",
+        "Option 2": "1year",
+        "Option 3": "4month",
+        "Option 4": "8month",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the maximum period for which TDS on education fee can be refunded if a student  is unable to pursue foreign studies due to various reasons?",
+        "Option 1": "1year",
+        "Option 2": "2year",
+        "Option 3": "3year",
+        "Option 4": "4year",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Full form of RTGS is _____________________",
+        "Option 1": "Real Time Group Settlement",
+        "Option 2": "Real Time Gross Service",
+        "Option 3": "Real Time Gross Settlement",
+        "Option 4": NaN,
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the full form of MICR?",
+        "Option 1": "Magnetic ink cheque Reader",
+        "Option 2": "Magnetic ink character recognition",
+        "Option 3": "Magnetic ink character reader",
+        "Option 4": "Magnetic ink clearing recognition",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "IPS means",
+        "Option 1": "Inter-Payment System",
+        "Option 2": "Inter Payment Site",
+        "Option 3": "Interbank Payment Site",
+        "Option 4": "Interbank Payment System",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who operates ConnectIPS e-Payment system?",
+        "Option 1": "NRB",
+        "Option 2": "NCHL",
+        "Option 3": "Banks",
+        "Option 4": "NBA",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is our cheque return charge ?",
+        "Option 1": "NPR 100",
+        "Option 2": "NPR 200",
+        "Option 3": "NPR 300",
+        "Option 4": "NPR 500",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the maximum per transaction amount that can be transferred using connect-IPS e-payment through web channel?",
+        "Option 1": "50000",
+        "Option 2": "100000",
+        "Option 3": "200000",
+        "Option 4": 2000000,
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the charge for clearing cheque below 2 lakhs?",
+        "Option 1": "NPR 10",
+        "Option 2": "NPR 25",
+        "Option 3": "NPR 100",
+        "Option 4": NaN,
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "According to NCHL rule book, how many times a cheque can be presented in clearing?",
+        "Option 1": "4",
+        "Option 2": "2",
+        "Option 3": "5",
+        "Option 4": "3",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "ConnectIPS e-payment includes",
+        "Option 1": "Online Fund Transfer and Mobile wallet top-up",
+        "Option 2": "Credit card bill payment and Share brokers payments",
+        "Option 3": "Government payments",
+        "Option 4": "all of them",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "What kind of cheques will be processed in clearing session?",
+        "Option 1": "In house cheques",
+        "Option 2": "Non MICR cheques",
+        "Option 3": "MICR cheques",
+        "Option 4": "Any of them",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the minimum amount limit to process RTGS transaction?",
+        "Option 1": "50000",
+        "Option 2": "100000",
+        "Option 3": "200000",
+        "Option 4": "250000",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What will happen if cheque is presented in Express session and not replied?",
+        "Option 1": "The cheque will be auto accepted",
+        "Option 2": "The cheque will be auto rejected",
+        "Option 3": "The cheque will be locked",
+        "Option 4": "The cheque will be stopped",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which of the currency is not allowed for transaction in ECC?",
+        "Option 1": "NPR",
+        "Option 2": "INR",
+        "Option 3": "USD",
+        "Option 4": "GBP",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the validity of Government cheques?",
+        "Option 1": "15 days",
+        "Option 2": "1 months",
+        "Option 3": "3 months",
+        "Option 4": "6 months",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Processing of RTGS transaction is centralized to ",
+        "Option 1": "Naxal Branch",
+        "Option 2": "Clearing Department",
+        "Option 3": "Account Services",
+        "Option 4": "CAOU",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "ECC operates as per the guidelines of ",
+        "Option 1": "Operation Manual",
+        "Option 2": "NRB Directives",
+        "Option 3": "NRBs FCY Directives",
+        "Option 4": "Nepal ECC operating rule and Nepal ECC rule book",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "The first four alphanumeric character of BIC represent.",
+        "Option 1": "Country Code",
+        "Option 2": "Branch ",
+        "Option 3": "Party Prefix",
+        "Option 4": "Department ",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the full form of RSO",
+        "Option 1": "Relation Security Operator",
+        "Option 2": "Risk Security Operator",
+        "Option 3": "Right Security Officer",
+        "Option 4": "Relationship Officer",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is CIF in Trade",
+        "Option 1": "Cost, Insurance, Flight",
+        "Option 2": "Cost, Insurance, and Freight",
+        "Option 3": "Carrier, Insurance, Flight",
+        "Option 4": "None of these",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which of the following Bi Bi Ni is required to issue for importing of the goods via Nepal Custom through LC from foreign Country?",
+        "Option 1": "Bi. Bi .Ni  Fa No 4(ga)",
+        "Option 2": "Bi. Bi .Ni  Fa No4(Ka)",
+        "Option 3": "Bi. Bi .Ni  Fa No 4",
+        "Option 4": "None of these",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which of the following documents is required   to issue Bi. Bi .Ni  Fa No 4?\nA) Commercial Invoice\nb)Copy of Insurance Document\nc)Certified True Copy of LC documents\nd)Packing List\ne)Certificate of Origin,\nf)Transport Document",
+        "Option 1": "a,c,f",
+        "Option 2": "a to d",
+        "Option 3": "a to f",
+        "Option 4": "a toe",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Current Limit of import via Documents Against Payment (DAP) from third Country is\u2026",
+        "Option 1": "USD 100000",
+        "Option 2": "USD 50000",
+        "Option 3": "USD 300000",
+        "Option 4": "USD 200000",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Current Limit of import via Documents Against Acceptance (DAA) from India is\u2026.",
+        "Option 1": "INR 10000000",
+        "Option 2": "INR 20000000",
+        "Option 3": "INR 30000000",
+        "Option 4": "INR 500000000",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Current Limit of import Via Draft /TT from third country by Nepali Company is\u2026",
+        "Option 1": "USD 30000",
+        "Option 2": "USD 50000",
+        "Option 3": "USD 100000",
+        "Option 4": "None of these",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Bill of Exchange is categorized as",
+        "Option 1": "Commercial Document",
+        "Option 2": "Shipping Document",
+        "Option 3": "Financial Document",
+        "Option 4": NaN,
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is the Risk Weight calculated on Bid, Performance Guarantees for Capital Adequacy ?",
+        "Option 1": "100 percentage",
+        "Option 2": "50 percentage",
+        "Option 3": "40 percentage",
+        "Option 4": "25 percentage",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is  the threshold that bank can return  the fund to the sender\u2019s bank received for miscellaneous purpose in case if not credited in beneficiary account without NRB approval?",
+        "Option 1": "USD 3000 or Equivalent",
+        "Option 2": "USD 5000 or Equivalent",
+        "Option 3": "USD 10000 or Equivalent",
+        "Option 4": "USD 15000 or Equivalent",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which is the current Key code staff need to use to ask questions to sani chatbud for virtual assistance ?",
+        "Option 1": "faqboc@2025",
+        "Option 2": "faqbot@2025 ",
+        "Option 3": "faqboo@2025",
+        "Option 4": "fatbot@2025",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is time lag between first presentment and second presentment of cheque for the purpose of blacklisting?",
+        "Option 1": "45 days",
+        "Option 2": "7 days",
+        "Option 3": "2 days",
+        "Option 4": "none of these",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who is Drawer fo cheque?",
+        "Option 1": " is the customer or account holder who issues the cheque",
+        "Option 2": " is the customer or account holder who receives the cheque",
+        "Option 3": " is the customer or account holder who exchange the cheque",
+        "Option 4": "none of these",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who is Drawee of the cheque?",
+        "Option 1": "Is the account holder\u2019s bank on which the cheque is drawnn",
+        "Option 2": "Who is \ndirected to pay the specified sum written on the cheque. ",
+        "Option 3": "The person who is \ndirected to pay the specified sum written on the cheque. ",
+        "Option 4": "All of these",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Ante dated cheques refers",
+        "Option 1": " a cheque date having after the current date called ante dated cheque",
+        "Option 2": " a cheque date having  current date ",
+        "Option 3": " a cheque date having prior to the current date called ante dated cheque",
+        "Option 4": "None of these",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who can pay stale cheque directly to payee ?",
+        "Option 1": "Teller",
+        "Option 2": "Head Teller",
+        "Option 3": "BM",
+        "Option 4": "None of these",
+        "CorrectAnswer": 4,
+        "Area": "Operation"
+    },
+    {
+        "question": "Who can appoint and aprove the key holder of the branch as per operational manual?",
+        "Option 1": "Cluster Head",
+        "Option 2": "HOC",
+        "Option 3": "BM",
+        "Option 4": "All of these",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is frequency of Key interchange ?",
+        "Option 1": "Every Six months",
+        "Option 2": "Every  year",
+        "Option 3": "every two year",
+        "Option 4": "none of these",
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "Which of the following application is used for Key management ?",
+        "Option 1": "Custodian App",
+        "Option 2": "Hand over Take over App",
+        "Option 3": "Treasury app",
+        "Option 4": "Key management app",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Teller should put annotated note tag on",
+        "Option 1": "each 100o pcs packet of each currency",
+        "Option 2": "each 50 pcs packet of each currency",
+        "Option 3": "each 100 pcs packet of each currency",
+        "Option 4": "each 10 pcs packet of each currency",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    },
+    {
+        "question": "Bait Money means",
+        "Option 1": "a specific form of cash used by financial institutions\nas a security measure to deter and identify bank robbers",
+        "Option 2": "a specific form of cash used by financial institutions\nas a security measure to deter and identify the  teller",
+        "Option 3": "a specific form of cash used by financial institutions\nas a security measure to deter and identify the customer",
+        "Option 4": "none of these",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Frequeny of surpirse cash verification by BM is",
+        "Option 1": "Once in a month",
+        "Option 2": "Twice in a month",
+        "Option 3": "Every two months",
+        "Option 4": "Every three months",
+        "CorrectAnswer": 1,
+        "Area": "Operation"
+    },
+    {
+        "question": "Does Stock of numbered stationaries and deliverables inside the vault  verified by OI is suffice ?",
+        "Option 1": "Yes",
+        "Option 2": "No",
+        "Option 3": NaN,
+        "Option 4": NaN,
+        "CorrectAnswer": 2,
+        "Area": "Operation"
+    },
+    {
+        "question": "What is threshold to obtain identification documents of none accout holder third party depositors?",
+        "Option 1": "0.5 Million",
+        "Option 2": "0.3 Million",
+        "Option 3": "0.1 Million",
+        "Option 4": "0.01 Million",
+        "CorrectAnswer": 3,
+        "Area": "Operation"
+    }
+]
